@@ -1,9 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 import GlobalStyle from "./themes/globalStyle";
-import illustration from "../data/images/illustration.svg";
-import content from "../data/content";
 import Header from "./Header";
+import Section from "./Section";
+import Share from "./Share";
+import Footer from "./Footer";
+import content from "../data/content";
+import illustration from "../data/images/illustration.svg";
 
 function App() {
   return (
@@ -26,9 +29,13 @@ function App() {
         </Wrapper>
       </HeroScreen>
       <Wrapper>
-        <div>
-          <h2>{content.section3.name}</h2>
-        </div>
+        <SectionList>
+          {Object.keys(content).map((key) => (
+            <Section key={key} index={key} details={content[key]} />
+          ))}
+        </SectionList>
+        <Share />
+        <Footer />
       </Wrapper>
     </>
   );
@@ -66,7 +73,7 @@ const ButtonMain = styled.button`
   text-transform: uppercase;
 
   :hover {
-    color: rgba(40, 45, 49, 0.7);
+    color: #2c89f5;
     cursor: pointer;
     box-shadow: 20px 40px 60px #c3c7d1, -20px -40px 60px #f2f5fc;
     transition: box-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -86,7 +93,7 @@ const ButtonSecondary = styled.button`
   transition: color 0.3s ease-in-out;
 
   :hover {
-    color: rgba(40, 45, 49, 0.7);
+    color: #2c89f5;
     cursor: pointer;
     transition: color 0.3s ease-in-out;
   }
@@ -114,5 +121,7 @@ const HeroTitle = styled.div`
 const Buttons = styled.div`
   margin-top: 48px;
 `;
+
+const SectionList = styled.div``;
 
 export default App;

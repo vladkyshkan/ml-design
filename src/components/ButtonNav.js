@@ -12,9 +12,9 @@ const NavButton = styled.a`
   text-decoration: none;
 
   :hover {
-    color: #2c89f5;
-    padding-bottom: 33px;
-    border-bottom: 2px solid #2c89f5;
+    color: #6275ff;
+    padding-bottom: 29px;
+    border-bottom: 2px solid #6275ff;
   }
 `;
 

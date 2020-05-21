@@ -70,14 +70,14 @@ const ShareStyled = styled.div`
   display: flex;
   justify-content: space-around;
   max-width: 312px;
-  margin-top: 120px;
+  margin: 120px auto 0;
 `;
 
 const ButtonShare = styled.button`
-  width: 72px;
-  height: 72px;
+  width: 64px;
+  height: 64px;
   background: #eff3f6;
-  box-shadow: 20px 20px 60px #cbcfd1, -20px -20px 60px #ffffff;
+  box-shadow: 10px 10px 30px #cbcfd1, -10px -10px 30px #ffffff;
   border: 0;
   border-radius: 100px;
   transition: box-shadow 0.3s ease-in-out;
@@ -91,11 +91,11 @@ const ButtonShare = styled.button`
 
   :hover {
     cursor: pointer;
-    box-shadow: 20px 40px 60px #c3c7d1, -20px -40px 60px #ffffff;
+    box-shadow: 10px 20px 40px #c3c7d1, -10px -20px 40px #ffffff;
     transition: box-shadow 0.3s ease-in-out;
 
     svg path {
-      stroke: #2c89f5;
+      stroke: #6275ff;
       transition: stroke 0.3s ease-in-out;
     }
   }

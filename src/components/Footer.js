@@ -34,7 +34,7 @@ const FooterStyled = styled.footer`
     color: rgba(40, 45, 49, 0.5);
 
     :hover {
-      color: #2c89f5;
+      color: #6275ff;
     }
   }
 

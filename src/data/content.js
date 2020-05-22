@@ -24,21 +24,6 @@ const content = {
         url: "https://atozofai.withgoogle.com/",
         image: "images/image1.3.jpg",
       },
-
-      link4: {
-        title: "Google AI",
-        description: "Advancing AI for everyone",
-        url: "https://ai.google/",
-        image: "images/image1.2.jpg",
-      },
-
-      link5: {
-        title: "The A-Z of AI",
-        description:
-          "This A-Z guide offers a series of simple, bite-sized explainers to help anyone understand what AI is and how it’s changing the world around us",
-        url: "https://atozofai.withgoogle.com/",
-        image: "images/image1.3.jpg",
-      },
     },
   },
 

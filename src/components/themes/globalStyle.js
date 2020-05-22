@@ -3,8 +3,8 @@ import SpaceGroteskRegular from "../../fonts/SpaceGroteskRegular.woff";
 import SpaceGroteskRegular2 from "../../fonts/SpaceGroteskRegular.woff2";
 import SpaceGroteskBold from "../../fonts/SpaceGroteskBold.woff";
 import SpaceGroteskBold2 from "../../fonts/SpaceGroteskBold.woff2";
-import SpaceMonoBold from "../../fonts/SpaceMonoBold.woff";
-import SpaceMonoBold2 from "../../fonts/SpaceMonoBold.woff2";
+import SpaceMonoRegular from "../../fonts/SpaceMonoRegular.woff";
+import SpaceMonoRegular2 from "../../fonts/SpaceMonoRegular.woff2";
 
 const GlobalStyle = createGlobalStyle`
   *, *::after, *::before {
@@ -32,8 +32,8 @@ const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: "SpaceMono";
     font-style: normal;
-    font-weight: 700;
-    src: url(${SpaceMonoBold2}) format('woff2'), url(${SpaceMonoBold}) format('woff');
+    font-weight: 400;
+    src: url(${SpaceMonoRegular2}) format('woff2'), url(${SpaceMonoRegular}) format('woff');
   }
 
   body {
@@ -42,7 +42,7 @@ const GlobalStyle = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: #F2F5FC;
-    color: #282D31;
+    color: #505B64;
   }
 
   button:focus {

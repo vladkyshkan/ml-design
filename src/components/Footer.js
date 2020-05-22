@@ -22,7 +22,7 @@ function Footer() {
 const FooterStyled = styled.footer`
   width: 100%;
   max-width: 76rem;
-  margin-top: 120px;
+  margin-top: 128px;
   padding: 20px 0;
   border-top: 1px solid #b9cbd9;
   display: flex;

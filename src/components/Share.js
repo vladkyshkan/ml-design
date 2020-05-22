@@ -2,9 +2,11 @@ import React from "react";
 import styled from "styled-components";
 
 function Share() {
+  const shareFacebook = () => {};
+
   return (
     <ShareStyled>
-      <ButtonShare>
+      <ButtonShare onClick={shareFacebook}>
         <svg
           width="24"
           height="24"

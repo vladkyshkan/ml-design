@@ -70,7 +70,7 @@ const H2 = styled.h2`
 const H3 = styled.h3`
   font-weight: bold;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 24px;
   margin: 16px;
 `;
 

@@ -16,14 +16,6 @@ const content = {
         url: "https://ai.google/",
         image: "images/image1.2.jpg",
       },
-
-      link3: {
-        title: "The A-Z of AI",
-        description:
-          "This A-Z guide offers a series of simple, bite-sized explainers to help anyone understand what AI is and how it’s changing the world around us",
-        url: "https://atozofai.withgoogle.com/",
-        image: "images/image1.3.jpg",
-      },
     },
   },
 
@@ -45,86 +37,161 @@ const content = {
       },
 
       link2: {
+        title: "Machine Learning for Humans (free)",
+        description:
+          "Simple, plain-English explanations of machine learning accompanied by math, code, and real-world examples",
+        url:
+          "https://www.dropbox.com/s/e38nil1dnl7481q/machine_learning.pdf?dl=0",
+        image: "images/image3.2.jpg",
+      },
+
+      link3: {
         title:
           "How to Speak Machine: Computational Thinking for the Rest of Us",
         description:
           "How businesses and individuals can identify opportunities afforded by technology to make world-changing products",
         url:
           "https://www.amazon.com/Master-Algorithm-Ultimate-Learning-Machine-ebook/dp/B012271YB2",
-        image: "images/image3.2.jpg",
+        image: "images/image3.3.jpg",
       },
 
-      link3: {
+      link4: {
         title: "The Master Algorithm",
         description:
           "A thought-provoking and wide-ranging exploration of machine learning and the race to build computer intelligences as flexible as our own",
         url:
           "https://www.amazon.com/Master-Algorithm-Ultimate-Learning-Machine-ebook/dp/B012271YB2",
-        image: "images/image3.3.jpg",
+        image: "images/image3.4.jpg",
       },
 
-      link4: {
+      link5: {
         title: "Superintelligence: Paths, Dangers, Strategies",
         description:
           "This book argues that if machine brains surpass human brains in general intelligence, then it could replace humans as the dominant lifeform on Earth",
         url:
           "https://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom-ebook/dp/B00LOOCGB2/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=",
-        image: "images/image3.4.jpg",
-      },
-
-      link5: {
-        title: "Artificial Intelligence Driven Design",
-        description:
-          "How Artificial Intelligence will impact UX design, and how to design meaningful experiences in an era with AI-driven products & services",
-        url:
-          "https://www.awwwards.com/AI-driven-design?amp%3Butm_content=ai_design&amp%3Butm_medium=social&amp%3Butm_source=twitter&utm_campaign=brain_food",
         image: "images/image3.5.jpg",
       },
 
       link6: {
-        title:
-          "Machine Learning Basics: An Illustrated Guide for Non-Technical Readers",
+        title: "Artificial Intelligence Driven Design (free)",
         description:
-          "The guidebook breaks down some of the fundamental concepts of machine learning",
+          "How Artificial Intelligence will impact UX design, and how to design meaningful experiences in an era with AI-driven products & services",
         url:
-          "https://pages.dataiku.com/hubfs/Guidebooks/Machine%20Learning%20Basics/GUIDEBOOK%20MACHINE%20LEARNING%20BASICS.pdf",
+          "https://www.awwwards.com/AI-driven-design?amp%3Butm_content=ai_design&amp%3Butm_medium=social&amp%3Butm_source=twitter&utm_campaign=brain_food",
         image: "images/image3.6.jpg",
       },
 
       link7: {
+        title:
+          "Machine Learning Basics: An Illustrated Guide for Non-Technical Readers (free)",
+        description:
+          "The guidebook breaks down some of the fundamental concepts of machine learning",
+        url:
+          "https://pages.dataiku.com/hubfs/Guidebooks/Machine%20Learning%20Basics/GUIDEBOOK%20MACHINE%20LEARNING%20BASICS.pdf",
+        image: "images/image3.7.jpg",
+      },
+
+      link8: {
         title:
           "Prediction Machines: The Simple Economics of Artificial Intelligence",
         description:
           "What does AI mean for the business? Read this book to find out",
         url:
           "https://www.amazon.com/Prediction-Machines-Economics-Artificial-Intelligence/dp/1633695670",
-        image: "images/image3.7.jpg",
+        image: "images/image3.8.jpg",
       },
 
-      link8: {
+      link9: {
         title: "Human + Machine: Reimagining Work in the Age of AI",
         description:
           "The book reveals how companies are using the new rules of AI to leap ahead on innovation and profitability",
         url:
           "https://www.amazon.com/Human-Machine-Reimagining-Work-Age/dp/1633693864",
-        image: "images/image3.8.jpg",
+        image: "images/image3.9.jpg",
       },
 
-      link9: {
+      link10: {
         title:
           "Applied Artificial Intelligence: A Handbook For Business Leaders",
         description:
           "A guide for business leaders who are passionate about leveraging AI to enhance the productivity of their organizations",
         url:
           "https://www.amazon.com/Applied-Artificial-Intelligence-Handbook-Business-ebook/dp/B07DHZT2DW",
-        image: "images/image3.9.jpg",
+        image: "images/image3.10.jpg",
       },
     },
   },
 
   section4: {
     name: "Learn",
-    list: {},
+    list: {
+      link1: {
+        title: "Elements of AI",
+        description:
+          "The Elements of AI is a series of free online courses created by Reaktor and the University of Helsinki. They want to encourage as broad a group of people as possible to learn what AI is",
+        url: "https://www.elementsofai.com/",
+        image: "images/image4.1.jpg",
+      },
+
+      link2: {
+        title: "AI For Everyone",
+        description:
+          "AI is not only for engineers. If you want your organization to become better at using AI, this is the course to tell everyone to take",
+        url: "https://www.coursera.org/learn/ai-for-everyone",
+        image: "images/image4.2.jpg",
+      },
+
+      link3: {
+        title: "Machine Learning by Stanford University",
+        description:
+          "In this class, you will learn about the most effective machine learning techniques, and gain practice implementing them and getting them to work for yourself",
+        url: "https://www.coursera.org/learn/machine-learning",
+        image: "images/image4.3.jpg",
+      },
+
+      link4: {
+        title: "Intro to Artificial Intelligence",
+        description:
+          "This course will introduce you to the basics of AI. Topics include machine learning, probabilistic reasoning, robotics, computer vision, and natural language processing",
+        url:
+          "https://www.udacity.com/course/intro-to-artificial-intelligence--cs271",
+        image: "images/image4.4.jpg",
+      },
+
+      link5: {
+        title: "AI Adventures by Google",
+        description:
+          "In this video series Yufeng Guo take you on an adventure through the world of AI, to explore the art, science, and tools of machine learning",
+        url:
+          "https://www.youtube.com/playlist?list=PLIivdWyY5sqJxnwJhe3etaK7utrBiPBQ2",
+        image: "images/image4.5.jpg",
+      },
+
+      link6: {
+        title: "The A-Z of AI",
+        description:
+          "This A-Z guide offers a series of simple, bite-sized explainers to help anyone understand what AI is and how it’s changing the world around us",
+        url: "https://atozofai.withgoogle.com/",
+        image: "images/image4.6.jpg",
+      },
+
+      link7: {
+        title: "I Love Algorithms",
+        description:
+          "The ‘I Love Algorithms’ card deck by Stanford d.school enables anyone, technical or not, to prototype with machine learning",
+        url: "https://dschool.stanford.edu/resources/i-love-algorithms",
+        image: "images/image4.7.jpg",
+      },
+
+      link8: {
+        title: "aimeets.design",
+        description:
+          "A set of tools for each step of the design thinking process to help designers turn AI into social, user, and business value",
+        url: "https://aimeets.design/",
+        image: "images/image4.8.jpg",
+      },
+    },
   },
 
   section5: {
@@ -189,6 +256,11 @@ const content = {
   },
 
   section7: {
+    name: "Videos",
+    list: {},
+  },
+
+  section8: {
     name: "Tools",
     list: {
       link1: {
@@ -196,7 +268,7 @@ const content = {
         description:
           "Bring the power of artificial intelligence to your creative projects with an intuitive and simple visual interface",
         url: "https://runwayml.com/",
-        image: "images/image7.1.jpg",
+        image: "images/image8.1.jpg",
       },
 
       link2: {
@@ -204,7 +276,7 @@ const content = {
         description:
           "Experimental computational design platform for exploring generative space",
         url: "https://components.ai/",
-        image: "images/image7.2.jpg",
+        image: "images/image8.2.jpg",
       },
 
       link3: {
@@ -212,7 +284,7 @@ const content = {
         description:
           "Train a computer to recognize your own images, sounds, & poses. A fast, easy way to create machine learning models for your sites, apps, and more – no expertise or coding required",
         url: "https://teachablemachine.withgoogle.com/",
-        image: "images/image7.3.jpg",
+        image: "images/image8.3.jpg",
       },
 
       link4: {
@@ -220,7 +292,7 @@ const content = {
         description:
           "Build, train, and ship custom deep learning models using a simple visual interface",
         url: "https://lobe.ai/",
-        image: "images/image7.4.jpg",
+        image: "images/image8.4.jpg",
       },
 
       link5: {
@@ -228,7 +300,7 @@ const content = {
         description:
           "The core open source library to help you develop and train ML models",
         url: "https://www.tensorflow.org/",
-        image: "images/image7.5.jpg",
+        image: "images/image8.5.jpg",
       },
 
       link6: {
@@ -236,7 +308,7 @@ const content = {
         description:
           "ml5.js aims to make machine learning approachable for a broad audience. The library provides access to machine learning algorithms in the browser, building on top of TensorFlow",
         url: "https://ml5js.org/",
-        image: "images/image7.6.jpg",
+        image: "images/image8.6.jpg",
       },
 
       link7: {
@@ -244,7 +316,7 @@ const content = {
         description:
           "p5.js is a JavaScript library for creative coding, with a focus on making coding accessible and inclusive for artists, designers, educators, beginners, and anyone else",
         url: "https://p5js.org/",
-        image: "images/image7.7.jpg",
+        image: "images/image8.7.jpg",
       },
 
       link8: {
@@ -252,7 +324,7 @@ const content = {
         description:
           "Use Looka's AI-powered platform to design a logo, make a website, and build a brand you love",
         url: "https://looka.com/",
-        image: "images/image7.8.jpg",
+        image: "images/image8.8.jpg",
       },
 
       link9: {
@@ -260,7 +332,7 @@ const content = {
         description:
           "A collection of music plugins built on Magenta’s open source tools and models. They use cutting-edge machine learning techniques for music generation",
         url: "https://magenta.tensorflow.org/studio",
-        image: "images/image7.9.jpg",
+        image: "images/image8.9.jpg",
       },
 
       link10: {
@@ -268,14 +340,14 @@ const content = {
         description:
           "A deep neural network that can generate 4-minute musical compositions with 10 different instruments, and can combine styles from country to Mozart to the Beatles",
         url: "https://openai.com/blog/musenet/",
-        image: "images/image7.10.jpg",
+        image: "images/image8.10.jpg",
       },
 
       link11: {
         title: "Fontjoy",
         description: "Generate font combinations with deep learning",
         url: "https://fontjoy.com/",
-        image: "images/image7.11.jpg",
+        image: "images/image8.11.jpg",
       },
 
       link12: {
@@ -283,7 +355,7 @@ const content = {
         description:
           "Using artificial intelligence to surface new relationships across fonts. This interactive map of more than 750 fonts has been organized using machine learning",
         url: "http://fontmap.ideo.com/",
-        image: "images/image7.12.jpg",
+        image: "images/image8.12.jpg",
       },
 
       link13: {
@@ -291,7 +363,7 @@ const content = {
         description:
           "Powerful AI to increase image resolution without quality loss",
         url: "https://letsenhance.io/",
-        image: "images/image7.13.jpg",
+        image: "images/image8.13.jpg",
       },
 
       link14: {
@@ -299,7 +371,7 @@ const content = {
         description:
           "A website dedicated to helping you remove image backgrounds as quickly and painlessly as possible",
         url: "https://clippingmagic.com/",
-        image: "images/image7.14.jpg",
+        image: "images/image8.14.jpg",
       },
     },
   },

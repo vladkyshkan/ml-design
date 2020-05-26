@@ -25,8 +25,6 @@ const StyledLink = styled(Link)`
   :hover {
     cursor: pointer;
     color: #6275ff;
-    padding-bottom: 29px;
-    border-bottom: 2px solid #6275ff;
   }
 
   &.active {

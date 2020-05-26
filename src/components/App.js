@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-scroll";
 import GlobalStyle from "./themes/globalStyle";
 import Header from "./Header";
 import Section from "./Section";
@@ -26,7 +27,9 @@ function App() {
                 experience, machine learning and artificial intelligence
               </P>
               <Buttons>
-                <ButtonMain href="#Resources">Read more</ButtonMain>
+                <ButtonMain to="Resources" offset={30} smooth={true}>
+                  Read more
+                </ButtonMain>
                 <ButtonSecondary href="mailto:vladkyshkan@gmail.com">
                   Suggest a link{" "}
                   <svg
@@ -117,7 +120,7 @@ const P = styled.p`
   }
 `;
 
-const ButtonMain = styled.a`
+const ButtonMain = styled(Link)`
   color: #e5eaef;
   padding: 16px 80px;
   background: #6275ff;
@@ -217,13 +220,24 @@ const HeroScreen = styled.div`
 
 const HeroTitle = styled.div`
   padding-top: 80px;
+  z-index: 5;
 `;
 
 const HeroContent = styled.div`
   display: flex;
 
   img {
-    margin: 80px 0 0 48px;
+    margin: 120px 0 0 120px;
+    animation: rotate 120s infinite;
+
+    @keyframes rotate {
+      from {
+        -webkit-transform: rotate(0deg);
+      }
+      to {
+        -webkit-transform: rotate(360deg);
+      }
+    }
   }
 
   @media only screen and (max-width: 1120px) {
@@ -247,6 +261,8 @@ const Buttons = styled.div`
   }
 `;
 
-const SectionList = styled.div``;
+const SectionList = styled.div`
+  z-index: 5;
+`;
 
 export default App;

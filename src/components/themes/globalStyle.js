@@ -11,10 +11,6 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
-  html {
-    scroll-behavior: smooth;
-  }
-
   @font-face {
     font-family: "Space";
     font-style: normal;

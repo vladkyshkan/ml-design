@@ -6,8 +6,7 @@ const Section = (props) => {
   const { name, list } = props.details;
 
   return (
-    <SectionStyled>
-      <a id={`${name}`} href={`#${props.name}`} />
+    <SectionStyled id={`${name}`}>
       <H2>
         <Number>00{props.index + 1}</Number> {name}
       </H2>
@@ -59,10 +58,10 @@ const Section = (props) => {
 };
 
 const SectionStyled = styled.div`
-  margin-top: 128px;
+  padding-top: 128px;
 
   @media only screen and (max-width: 640px) {
-    margin-top: 64px;
+    padding-top: 64px;
   }
 `;
 

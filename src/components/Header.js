@@ -54,7 +54,7 @@ const Logo = styled.p`
   text-transform: uppercase;
 `;
 
-const Navigation = styled.div`
+const Navigation = styled.nav`
   @media only screen and (max-width: 1024px) {
     display: none;
   }

@@ -56,7 +56,7 @@ function App() {
             </HeroTitle>
             <img
               srcset="images/hero-image.jpg 1x, images/hero-image@2x.jpg 2x"
-              alt=""
+              alt="Generative graphics"
             />
           </HeroContent>
         </Wrapper>

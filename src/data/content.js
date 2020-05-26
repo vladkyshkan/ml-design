@@ -196,7 +196,15 @@ const content = {
 
   section5: {
     name: "Examples",
-    list: {},
+    list: {
+      link1: {
+        title: "Uibot",
+        description:
+          "Uibot is an experiment on how far one could automate the generation of visual designs, what kinds of advantages it would lead to and what issues one would face",
+        url: "https://www.uibot.app/",
+        image: "images/image5.1.jpg",
+      },
+    },
   },
 
   section6: {
@@ -257,7 +265,73 @@ const content = {
 
   section7: {
     name: "Videos",
-    list: {},
+    list: {
+      link1: {
+        title: "AI is Your New Design Material by Josh Clark",
+        description:
+          "This talk explores what makes machine learning such a compelling and challenging design material—and shows you how you can start using it",
+        url: "https://www.youtube.com/watch?v=Tgzu351uDIc",
+        image: "images/image7.1.jpg",
+      },
+
+      link2: {
+        title: "Designing Great ML Experiences. WWDC 2019",
+        description:
+          "Learn how to incorporate ML experiences into your apps, and gain practical approaches to designing user interfaces that feel effortlessly helpful",
+        url: "https://developer.apple.com/videos/play/wwdc2019/803/",
+        image: "images/image7.2.jpg",
+      },
+
+      link3: {
+        title: "Designing Human-Centered AI Products. Google I/O'19",
+        description:
+          "During this video you’ll learn how to assess whether a problem is a good fit for ML and help users understand how to interact with AI systems",
+        url: "https://www.youtube.com/watch?v=rf83vRxLWFQ",
+        image: "images/image7.3.jpg",
+      },
+
+      link4: {
+        title: "Algorithm-driven design by Yury Vetrov",
+        description: "How artificial intelligence is changing design",
+        url: "https://www.youtube.com/watch?v=8YH58dpMRJU",
+        image: "images/image7.4.jpg",
+      },
+
+      link5: {
+        title: "Why Machine Learning is a UX Problem",
+        description:
+          "Dive into artificial intelligence, the impact that machine learning has on UX, and the changing role of design and development with the advancement of technology",
+        url:
+          "https://www.youtube.com/watch?v=Q1qhY1KOGZ8&list=PLUW5utnrTMQc2VMdpf8cPz9qQpHGWL-iu&index=9&t=0s",
+        image: "images/image7.5.jpg",
+      },
+
+      link6: {
+        title: "Adventures in using ML in Product Design",
+        description:
+          "How machine learning creates new opportunities and new problems in product design, and look at some examples of ML applied in products we use today",
+        url:
+          "https://www.youtube.com/watch?v=KorYFmFNMzY&list=PLUW5utnrTMQc2VMdpf8cPz9qQpHGWL-iu&index=17&t=0s",
+        image: "images/image7.6.jpg",
+      },
+
+      link7: {
+        title: "Better AI needs better design",
+        description:
+          "In this talk, Srikanth Velamakanni unfolds how AI and Design together can develop workable solutions and solve problems at scale",
+        url:
+          "https://www.youtube.com/watch?v=gE9mipJHOhI&list=PLUW5utnrTMQc2VMdpf8cPz9qQpHGWL-iu&index=24&t=0s",
+        image: "images/image7.7.jpg",
+      },
+
+      link8: {
+        title: "What AI Can Learn from Design",
+        description:
+          "What can AI learn from design, and what can design reveal about what goes on within AI",
+        url: "https://www.youtube.com/watch?v=5EDAEl6pVCw",
+        image: "images/image7.8.jpg",
+      },
+    },
   },
 
   section8: {

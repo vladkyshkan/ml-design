@@ -73,6 +73,10 @@ const ShareStyled = styled.div`
   justify-content: space-around;
   max-width: 312px;
   margin: 128px auto 0;
+
+  @media only screen and (max-width: 640px) {
+    margin-top: 64px;
+  }
 `;
 
 const ButtonShare = styled.button`

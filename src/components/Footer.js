@@ -42,6 +42,12 @@ const FooterStyled = styled.footer`
     display: flex;
     align-items: baseline;
   }
+
+  @media only screen and (max-width: 640px) {
+    margin-top: 64px;
+    font-size: 14px;
+    line-height: 21px;
+  }
 `;
 
 export default Footer;

@@ -82,6 +82,27 @@ const H1 = styled.h1`
   margin-bottom: 48px;
   color: #282d31;
   text-transform: uppercase;
+
+  @media only screen and (max-width: 1120px) {
+    font-size: 100px;
+    line-height: 80px;
+  }
+
+  @media only screen and (max-width: 640px) {
+    font-size: 80px;
+    line-height: 72px;
+    margin-bottom: 24px;
+  }
+
+  @media only screen and (max-width: 420px) {
+    font-size: 72px;
+    line-height: 64px;
+  }
+
+  @media only screen and (max-width: 360px) {
+    font-size: 64px;
+    line-height: 56px;
+  }
 `;
 
 const P = styled.p`
@@ -89,11 +110,16 @@ const P = styled.p`
   line-height: 27px;
   margin: 0;
   max-width: 520px;
+
+  @media only screen and (max-width: 640px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
 `;
 
 const ButtonMain = styled.a`
   color: #e5eaef;
-  padding: 16px 100px;
+  padding: 16px 80px;
   background: #6275ff;
   box-shadow: 10px 10px 30px #c3c7cb, -10px -10px 30px #ffffff;
   transition: box-shadow 0.2s ease-in-out, background 0.2s ease-in-out,
@@ -115,6 +141,11 @@ const ButtonMain = styled.a`
     box-shadow: 10px 20px 40px #c3c7cb, -10px -20px 40px #ffffff;
     transition: box-shadow 0.2s ease-in-out, background 0.2s ease-in-out,
       color 0.2s ease-in-out;
+  }
+
+  @media only screen and (max-width: 500px) {
+    width: 100%;
+    display: block;
   }
 `;
 
@@ -152,17 +183,36 @@ const ButtonSecondary = styled.a`
       transition: stroke 0.2s ease-in-out;
     }
   }
+
+  @media only screen and (max-width: 1120px) {
+    margin: 0 0 0 24px;
+  }
+
+  @media only screen and (max-width: 500px) {
+    width: 100%;
+    display: block;
+    margin: 24px 0 0 0;
+  }
 `;
 
 const Wrapper = styled.div`
   margin: 0 auto;
-  max-width: 76rem;
+  padding: 0 32px;
+  max-width: 1280px;
+
+  @media only screen and (max-width: 768px) {
+    padding: 0 16px;
+  }
 `;
 
 const HeroScreen = styled.div`
   height: 100vh;
   max-height: 700px;
   background: #e5eaef;
+
+  @media only screen and (max-width: 640px) {
+    height: 580px;
+  }
 `;
 
 const HeroTitle = styled.div`
@@ -175,10 +225,26 @@ const HeroContent = styled.div`
   img {
     margin: 80px 0 0 48px;
   }
+
+  @media only screen and (max-width: 1120px) {
+    img {
+      margin: 80px 0 0 0;
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+    img {
+      display: none;
+    }
+  }
 `;
 
 const Buttons = styled.div`
   margin-top: 48px;
+
+  @media only screen and (max-width: 640px) {
+    margin-top: 24px;
+  }
 `;
 
 const SectionList = styled.div``;

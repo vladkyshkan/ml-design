@@ -23,10 +23,12 @@ const StyledLink = styled(Link)`
   text-decoration: none;
   transition: color 0.2s ease-in-out;
 
-  :hover {
-    cursor: pointer;
-    color: #6275ff;
-    transition: color 0.2s ease-in-out;
+  @media (hover: hover) {
+    :hover {
+      cursor: pointer;
+      color: #6275ff;
+      transition: color 0.2s ease-in-out;
+    }
   }
 
   &.active {

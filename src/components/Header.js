@@ -59,10 +59,12 @@ const Logo = styled(Link)`
   text-transform: uppercase;
   transition: color 0.2s ease-in-out;
 
-  :hover {
-    cursor: pointer;
-    color: #6275ff;
-    transition: color 0.2s ease-in-out;
+  @media (hover: hover) {
+    :hover {
+      cursor: pointer;
+      color: #6275ff;
+      transition: color 0.2s ease-in-out;
+    }
   }
 `;
 

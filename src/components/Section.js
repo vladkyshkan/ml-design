@@ -176,10 +176,12 @@ const ResourceLink = styled.div`
     }
   }
 
-  :hover {
-    svg path {
-      stroke: #6275ff;
-      transition: stroke 0.3s ease-in-out;
+  @media (hover: hover) {
+    :hover {
+      svg path {
+        stroke: #6275ff;
+        transition: stroke 0.3s ease-in-out;
+      }
     }
   }
 `;

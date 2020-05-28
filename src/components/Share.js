@@ -3,9 +3,9 @@ import styled from "styled-components";
 import { FacebookShareButton, TwitterShareButton } from "react-share";
 
 function Share() {
-  const shareFacebook = () => {};
+  const shareUrl = "http://www.machinelearning.design/";
 
-  const shareTwitter = () => {};
+  const title = "Machine Learning + Design";
 
   const shareLink = () => {};
 
@@ -13,40 +13,44 @@ function Share() {
     <ShareStyled>
       <H2>Spread the word</H2>
       <ShareButtons>
-        <ButtonShare>
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M18 2H15V2C12.2386 2 10 4.23858 10 7V7V10H7V14H10V22H14V14H17L18 10H14V7V7C14 6.44771 14.4477 6 15 6H18V2Z"
-              stroke="#282D31"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </ButtonShare>
-        <ButtonShare>
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M23 3.00011V3.00011C22.0424 3.67559 20.9821 4.19222 19.86 4.53011V4.53011C18.2363 2.66317 15.4066 2.46597 13.5396 4.08965C12.5455 4.95427 11.9823 6.21268 12 7.53011V8.53011V8.53011C8.43066 8.62267 5.05202 6.92208 3 4.00011C3 4.00011 -1 13.0001 8 17.0001V17.0001C5.94053 18.3981 3.48716 19.099 1 19.0001C10 24.0001 21 19.0001 21 7.50011V7.50017C20.9991 7.22162 20.9723 6.94376 20.92 6.67017V6.67017C21.9406 5.66365 22.6608 4.39285 23 3.00011V3.00011Z"
-              stroke="#282D31"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </ButtonShare>
+        <FacebookShareButton url={shareUrl} quote={title}>
+          <ButtonShare>
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18 2H15V2C12.2386 2 10 4.23858 10 7V7V10H7V14H10V22H14V14H17L18 10H14V7V7C14 6.44771 14.4477 6 15 6H18V2Z"
+                stroke="#282D31"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </ButtonShare>
+        </FacebookShareButton>
+        <TwitterShareButton url={shareUrl} quote={title}>
+          <ButtonShare>
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M23 3.00011V3.00011C22.0424 3.67559 20.9821 4.19222 19.86 4.53011V4.53011C18.2363 2.66317 15.4066 2.46597 13.5396 4.08965C12.5455 4.95427 11.9823 6.21268 12 7.53011V8.53011V8.53011C8.43066 8.62267 5.05202 6.92208 3 4.00011C3 4.00011 -1 13.0001 8 17.0001V17.0001C5.94053 18.3981 3.48716 19.099 1 19.0001C10 24.0001 21 19.0001 21 7.50011V7.50017C20.9991 7.22162 20.9723 6.94376 20.92 6.67017V6.67017C21.9406 5.66365 22.6608 4.39285 23 3.00011V3.00011Z"
+                stroke="#282D31"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </ButtonShare>
+        </TwitterShareButton>
         <ButtonShare>
           <svg
             width="24"
@@ -70,6 +74,7 @@ function Share() {
               strokeLinejoin="round"
             />
           </svg>
+          <Tooltip>Copy link</Tooltip>
         </ButtonShare>
       </ShareButtons>
     </ShareStyled>
@@ -89,7 +94,7 @@ const ShareStyled = styled.div`
 `;
 
 const H2 = styled.h2`
-  color: #6275ff;
+  color: #282d31;
   font-size: 32px;
   font-family: "SpaceMono", monospace;
   font-weight: 400;
@@ -102,6 +107,7 @@ const H2 = styled.h2`
 
 const ShareButtons = styled.div`
   display: flex;
+  align-items: center;
 `;
 
 const ButtonShare = styled.button`
@@ -116,20 +122,56 @@ const ButtonShare = styled.button`
   align-items: center;
   justify-content: center;
   margin: 0 24px;
+  position: relative;
 
   svg path {
     transition: stroke 0.2s ease-in-out;
   }
 
-  :hover {
-    cursor: pointer;
-    box-shadow: 10px 20px 40px #c3c7d1, -10px -20px 40px #ffffff;
-    transition: box-shadow 0.2s ease-in-out, background 0.2s ease-in-out;
-    background: #6275ff;
+  @media (hover: hover) {
+    :hover {
+      cursor: pointer;
+      box-shadow: 10px 20px 40px #c3c7d1, -10px -20px 40px #ffffff;
+      transition: box-shadow 0.2s ease-in-out, background 0.2s ease-in-out;
+      background: #6275ff;
 
-    svg path {
-      stroke: #eff3f6;
-      transition: stroke 0.2s ease-in-out;
+      svg path {
+        stroke: #eff3f6;
+        transition: stroke 0.2s ease-in-out;
+      }
+    }
+  }
+`;
+
+const Tooltip = styled.span`
+  width: 90px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Space";
+  color: #505b64;
+  background-color: #f8faff;
+  border-radius: 20px;
+  position: absolute;
+  left: 80px;
+  display: none;
+
+  @media (hover: hover) {
+    ${ButtonShare}:hover & {
+      display: block;
+      box-shadow: 10px 20px 40px #c3c7d1, -10px -20px 40px #ffffff;
+      animation: fadeInDown 0.2s;
+
+      @keyframes fadeInDown {
+        0% {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
     }
   }
 `;

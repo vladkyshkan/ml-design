@@ -1,13 +1,18 @@
 import React from "react";
 import styled from "styled-components";
+import { Link, animateScroll as scroll } from "react-scroll";
 import content from "../data/content";
 import ButtonNav from "./ButtonNav";
 
 function Header() {
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <HeaderStyled>
       <HeaderContent>
-        <Logo>Machine Learning + Design</Logo>
+        <Logo onClick={scrollToTop}>Machine Learning + Design</Logo>
         <Menu>Menu</Menu>
         <Navigation>
           {Object.keys(content).map((key) => (
@@ -46,12 +51,19 @@ const HeaderContent = styled.div`
   }
 `;
 
-const Logo = styled.p`
+const Logo = styled(Link)`
   font-weight: bold;
   font-size: 14px;
-  line-height: 19px;
+  line-height: 46px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+  transition: color 0.2s ease-in-out;
+
+  :hover {
+    cursor: pointer;
+    color: #6275ff;
+    transition: color 0.2s ease-in-out;
+  }
 `;
 
 const Navigation = styled.nav`

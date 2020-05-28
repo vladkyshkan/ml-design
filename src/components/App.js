@@ -27,10 +27,14 @@ function App() {
                 experience, machine learning and artificial intelligence
               </P>
               <Buttons>
-                <ButtonMain to="Resources" offset={30} smooth={true}>
+                <ButtonMain to="Articles" offset={30} smooth={true}>
                   Read more
                 </ButtonMain>
-                <ButtonSecondary href="mailto:vladkyshkan@gmail.com">
+                <ButtonSecondary
+                  href="https://forms.gle/Vdj8hMJWcam2tcnz7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Suggest a link{" "}
                   <svg
                     width="18"
@@ -41,14 +45,14 @@ function App() {
                   >
                     <path
                       d="M7.49994 9.75V9.75C8.74046 11.4084 11.0905 11.7472 12.749 10.5067C12.8925 10.3993 13.0282 10.2818 13.1549 10.155L15.4049 7.905V7.905C16.8437 6.41531 16.8025 4.0413 15.3128 2.6025C13.8596 1.19895 11.5557 1.19895 10.1024 2.6025L8.81244 3.885"
-                      stroke="#282D31"
+                      stroke="#6275ff"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     />
                     <path
                       d="M10.5 8.25003V8.25003C9.25945 6.59159 6.90937 6.2528 5.25093 7.49333C5.10738 7.60071 4.97171 7.71824 4.84497 7.84503L2.59497 10.095V10.095C1.15618 11.5847 1.19743 13.9587 2.68713 15.3975C4.14035 16.8011 6.44426 16.8011 7.89747 15.3975L9.17997 14.115"
-                      stroke="#282D31"
+                      stroke="#6275ff"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -57,10 +61,12 @@ function App() {
                 </ButtonSecondary>
               </Buttons>
             </HeroTitle>
-            <img
-              srcset="images/hero-image.jpg 1x, images/hero-image@2x.jpg 2x"
-              alt="Generative graphics"
-            />
+            <ImageContainer>
+              <img
+                srcset="images/hero-image.jpg 1x, images/hero-image@2x.jpg 2x"
+                alt="Generative graphics"
+              />
+            </ImageContainer>
           </HeroContent>
         </Wrapper>
       </HeroScreen>
@@ -125,8 +131,6 @@ const ButtonMain = styled(Link)`
   padding: 16px 80px;
   background: #6275ff;
   box-shadow: 10px 10px 30px #c3c7cb, -10px -10px 30px #ffffff;
-  transition: box-shadow 0.2s ease-in-out, background 0.2s ease-in-out,
-    color 0.2s ease-in-out;
   border: 0;
   border-radius: 10px;
   font-weight: bold;
@@ -136,14 +140,18 @@ const ButtonMain = styled(Link)`
   letter-spacing: 0.05em;
   text-transform: uppercase;
   text-decoration: none;
+  transition: box-shadow 0.2s ease-in-out, background 0.2s ease-in-out,
+    color 0.2s ease-in-out;
 
-  :hover {
-    color: #6275ff;
-    background: #e5eaef;
-    cursor: pointer;
-    box-shadow: 10px 20px 40px #c3c7cb, -10px -20px 40px #ffffff;
-    transition: box-shadow 0.2s ease-in-out, background 0.2s ease-in-out,
-      color 0.2s ease-in-out;
+  @media (hover: hover) {
+    &:hover {
+      color: #6275ff;
+      background: #e5eaef;
+      cursor: pointer;
+      box-shadow: 10px 20px 40px #c3c7cb, -10px -20px 40px #ffffff;
+      transition: box-shadow 0.2s ease-in-out, background 0.2s ease-in-out,
+        color 0.2s ease-in-out;
+    }
   }
 
   @media only screen and (max-width: 500px) {
@@ -153,7 +161,9 @@ const ButtonMain = styled(Link)`
 `;
 
 const ButtonSecondary = styled.a`
-  color: #282d31;
+  color: #6275ff;
+  padding: 16px 52px;
+  background: rgba(98, 117, 255, 0.1);
   font-weight: bold;
   font-size: 14px;
   line-height: 19px;
@@ -162,39 +172,30 @@ const ButtonSecondary = styled.a`
   text-transform: uppercase;
   text-decoration: none;
   border: 0;
-  background: transparent;
-  margin-left: 48px;
-  transition: color 0.2s ease-in-out;
+  border-radius: 10px;
+  margin: 0 0 0 16px;
+  box-shadow: none;
+  transition: box-shadow 0.2s ease-in-out, background 0.2s ease-in-out;
 
   svg {
     position: relative;
     top: 5px;
     margin-left: 2px;
-
-    path {
-      transition: stroke 0.2s ease-in-out;
-    }
   }
 
-  :hover {
-    color: #6275ff;
-    cursor: pointer;
-    transition: color 0.2s ease-in-out;
-
-    svg path {
-      stroke: #6275ff;
-      transition: stroke 0.2s ease-in-out;
+  @media (hover: hover) {
+    :hover {
+      background: #e5eaef;
+      cursor: pointer;
+      box-shadow: 10px 20px 40px #c3c7cb, -10px -20px 40px #ffffff;
+      transition: box-shadow 0.2s ease-in-out, background 0.2s ease-in-out;
     }
-  }
-
-  @media only screen and (max-width: 1120px) {
-    margin: 0 0 0 24px;
   }
 
   @media only screen and (max-width: 500px) {
     width: 100%;
     display: block;
-    margin: 24px 0 0 0;
+    margin: 16px 0 0 0;
   }
 `;
 
@@ -227,8 +228,7 @@ const HeroContent = styled.div`
   display: flex;
 
   img {
-    margin: 120px 0 0 120px;
-    animation: rotate 120s infinite;
+    animation: rotate 90s infinite;
 
     @keyframes rotate {
       from {
@@ -239,17 +239,18 @@ const HeroContent = styled.div`
       }
     }
   }
+`;
+
+const ImageContainer = styled.div`
+  margin: 110px 0 0 120px;
+  clip-path: inset(-50px -50px -40px -50px);
 
   @media only screen and (max-width: 1120px) {
-    img {
-      margin: 80px 0 0 0;
-    }
+    margin: 80px 0 0 0;
   }
 
   @media only screen and (max-width: 640px) {
-    img {
-      display: none;
-    }
+    display: none;
   }
 `;
 

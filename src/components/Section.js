@@ -119,6 +119,19 @@ const ResourceLinkList = styled.div`
     margin-left: -5%;
     margin-bottom: -64px;
     padding-bottom: 64px;
+    gap: 0;
+  }
+
+  @media only screen and (max-width: 768px) {
+    width: calc(100% + 32px);
+    margin-left: -16px;
+
+    &::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
   }
 `;
 
@@ -129,6 +142,10 @@ const StyledTilt = styled.div`
 
   @media only screen and (max-width: 768px) {
     margin-left: 16px;
+
+    &:nth-last-child(1) {
+      padding-right: 16px;
+    }
   }
 `;
 

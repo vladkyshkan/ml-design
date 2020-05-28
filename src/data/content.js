@@ -1,30 +1,10 @@
 const content = {
   section1: {
-    name: "Resources",
-    list: {
-      link1: {
-        title: "Open AI",
-        description:
-          "Discovering and enacting the path to safe artificial general intelligence",
-        url: "https://openai.com/",
-        image: "images/image1.1.jpg",
-      },
-
-      link2: {
-        title: "Google AI",
-        description: "Advancing AI for everyone",
-        url: "https://ai.google/",
-        image: "images/image1.2.jpg",
-      },
-    },
-  },
-
-  section2: {
     name: "Articles",
     list: {},
   },
 
-  section3: {
+  section2: {
     name: "Books",
     list: {
       link1: {
@@ -33,7 +13,7 @@ const content = {
           "ML is no longer just a tool for data scientists. By taking advantage of recent advances, UI/UX designers can find ways to better understand their users",
         url:
           "https://www.oreilly.com/library/view/machine-learning-for/9781491971444/?intcmp=il-design-free-lp-lgen_20160621_new_site_machine_learning_for_designers_full_report_editor_note_link",
-        image: "images/image3.1.jpg",
+        image: "images/image2.1.jpg",
       },
 
       link2: {
@@ -42,7 +22,7 @@ const content = {
           "Simple, plain-English explanations of machine learning accompanied by math, code, and real-world examples",
         url:
           "https://www.dropbox.com/s/e38nil1dnl7481q/machine_learning.pdf?dl=0",
-        image: "images/image3.2.jpg",
+        image: "images/image2.2.jpg",
       },
 
       link3: {
@@ -52,7 +32,7 @@ const content = {
           "How businesses and individuals can identify opportunities afforded by technology to make world-changing products",
         url:
           "https://www.amazon.com/Master-Algorithm-Ultimate-Learning-Machine-ebook/dp/B012271YB2",
-        image: "images/image3.3.jpg",
+        image: "images/image2.3.jpg",
       },
 
       link4: {
@@ -61,7 +41,7 @@ const content = {
           "A thought-provoking and wide-ranging exploration of machine learning and the race to build computer intelligences as flexible as our own",
         url:
           "https://www.amazon.com/Master-Algorithm-Ultimate-Learning-Machine-ebook/dp/B012271YB2",
-        image: "images/image3.4.jpg",
+        image: "images/image2.4.jpg",
       },
 
       link5: {
@@ -70,7 +50,7 @@ const content = {
           "This book argues that if machine brains surpass human brains in general intelligence, then it could replace humans as the dominant lifeform on Earth",
         url:
           "https://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom-ebook/dp/B00LOOCGB2/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=",
-        image: "images/image3.5.jpg",
+        image: "images/image2.5.jpg",
       },
 
       link6: {
@@ -79,7 +59,7 @@ const content = {
           "How Artificial Intelligence will impact UX design, and how to design meaningful experiences in an era with AI-driven products & services",
         url:
           "https://www.awwwards.com/AI-driven-design?amp%3Butm_content=ai_design&amp%3Butm_medium=social&amp%3Butm_source=twitter&utm_campaign=brain_food",
-        image: "images/image3.6.jpg",
+        image: "images/image2.6.jpg",
       },
 
       link7: {
@@ -89,7 +69,7 @@ const content = {
           "The guidebook breaks down some of the fundamental concepts of machine learning",
         url:
           "https://pages.dataiku.com/hubfs/Guidebooks/Machine%20Learning%20Basics/GUIDEBOOK%20MACHINE%20LEARNING%20BASICS.pdf",
-        image: "images/image3.7.jpg",
+        image: "images/image2.7.jpg",
       },
 
       link8: {
@@ -99,7 +79,7 @@ const content = {
           "What does AI mean for the business? Read this book to find out",
         url:
           "https://www.amazon.com/Prediction-Machines-Economics-Artificial-Intelligence/dp/1633695670",
-        image: "images/image3.8.jpg",
+        image: "images/image2.8.jpg",
       },
 
       link9: {
@@ -108,7 +88,7 @@ const content = {
           "The book reveals how companies are using the new rules of AI to leap ahead on innovation and profitability",
         url:
           "https://www.amazon.com/Human-Machine-Reimagining-Work-Age/dp/1633693864",
-        image: "images/image3.9.jpg",
+        image: "images/image2.9.jpg",
       },
 
       link10: {
@@ -118,7 +98,36 @@ const content = {
           "A guide for business leaders who are passionate about leveraging AI to enhance the productivity of their organizations",
         url:
           "https://www.amazon.com/Applied-Artificial-Intelligence-Handbook-Business-ebook/dp/B07DHZT2DW",
-        image: "images/image3.10.jpg",
+        image: "images/image2.10.jpg",
+      },
+    },
+  },
+
+  section3: {
+    name: "Examples",
+    list: {
+      link1: {
+        title: "Uibot",
+        description:
+          "Uibot is an experiment on how far one could automate the generation of visual designs, what kinds of advantages it would lead to and what issues one would face",
+        url: "https://www.uibot.app/",
+        image: "images/image3.1.jpg",
+      },
+
+      link2: {
+        title: "Artwork Personalization at Netflix",
+        description:
+          "How Netflix recommends the titles with a help of machine learning algorithms",
+        url: "https://netflixtechblog.com/artwork-personalization-c589f074ad76",
+        image: "images/image3.2.jpg",
+      },
+
+      link3: {
+        title: "The UX of AI",
+        description:
+          "Using Google Clips to understand how a human-centered design process elevates artificial intelligence",
+        url: "https://design.google/library/ux-ai/",
+        image: "images/image3.3.jpg",
       },
     },
   },
@@ -195,19 +204,6 @@ const content = {
   },
 
   section5: {
-    name: "Examples",
-    list: {
-      link1: {
-        title: "Uibot",
-        description:
-          "Uibot is an experiment on how far one could automate the generation of visual designs, what kinds of advantages it would lead to and what issues one would face",
-        url: "https://www.uibot.app/",
-        image: "images/image5.1.jpg",
-      },
-    },
-  },
-
-  section6: {
     name: "Guidelines",
     list: {
       link1: {
@@ -216,7 +212,7 @@ const content = {
           "Apple guidelines for designing UI and user experience of a machine learning app",
         url:
           "https://developer.apple.com/design/human-interface-guidelines/machine-learning/overview/introduction/",
-        image: "images/image6.1.jpg",
+        image: "images/image5.1.jpg",
       },
 
       link2: {
@@ -224,7 +220,7 @@ const content = {
         description:
           "A shared collection of ethics, guidelines, and resources for designing a relationship with AI from IBM",
         url: "https://www.ibm.com/design/ai/",
-        image: "images/image6.2.jpg",
+        image: "images/image5.2.jpg",
       },
 
       link3: {
@@ -233,7 +229,7 @@ const content = {
           "Best practices for how AI systems should behave upon initial interaction, during regular interaction, when they’re inevitably wrong, and over time",
         url:
           "https://www.microsoft.com/en-us/research/project/guidelines-for-human-ai-interaction/",
-        image: "images/image6.3.jpg",
+        image: "images/image5.3.jpg",
       },
 
       link4: {
@@ -241,7 +237,7 @@ const content = {
         description:
           "People + AI Research (PAIR) is a multidisciplinary team at Google that explores the human side of AI by doing fundamental research, building tools and creating design frameworks",
         url: "https://pair.withgoogle.com/",
-        image: "images/image6.4.jpg",
+        image: "images/image5.4.jpg",
       },
 
       link5: {
@@ -250,7 +246,7 @@ const content = {
           "Spotify team come up with three principles they believe will help others design ML-powered experiences",
         url:
           "https://spotify.design/article/three-principles-for-designing-ml-powered-products",
-        image: "images/image6.5.jpg",
+        image: "images/image5.5.jpg",
       },
 
       link6: {
@@ -258,12 +254,12 @@ const content = {
         description:
           "A set of principles and activities that IDEO team use today to ensure they’re intentionally designing intelligent systems in service of people",
         url: "https://medium.com/ideo-stories/data-ethics-and-ai-276723a1a2fc",
-        image: "images/image6.6.jpg",
+        image: "images/image5.6.jpg",
       },
     },
   },
 
-  section7: {
+  section6: {
     name: "Videos",
     list: {
       link1: {
@@ -271,7 +267,7 @@ const content = {
         description:
           "This talk explores what makes machine learning such a compelling and challenging design material—and shows you how you can start using it",
         url: "https://www.youtube.com/watch?v=Tgzu351uDIc",
-        image: "images/image7.1.jpg",
+        image: "images/image6.1.jpg",
       },
 
       link2: {
@@ -279,7 +275,7 @@ const content = {
         description:
           "Learn how to incorporate ML experiences into your apps, and gain practical approaches to designing user interfaces that feel effortlessly helpful",
         url: "https://developer.apple.com/videos/play/wwdc2019/803/",
-        image: "images/image7.2.jpg",
+        image: "images/image6.2.jpg",
       },
 
       link3: {
@@ -287,14 +283,14 @@ const content = {
         description:
           "During this video you’ll learn how to assess whether a problem is a good fit for ML and help users understand how to interact with AI systems",
         url: "https://www.youtube.com/watch?v=rf83vRxLWFQ",
-        image: "images/image7.3.jpg",
+        image: "images/image6.3.jpg",
       },
 
       link4: {
         title: "Algorithm-driven design by Yury Vetrov",
         description: "How artificial intelligence is changing design",
         url: "https://www.youtube.com/watch?v=8YH58dpMRJU",
-        image: "images/image7.4.jpg",
+        image: "images/image6.4.jpg",
       },
 
       link5: {
@@ -303,7 +299,7 @@ const content = {
           "Dive into artificial intelligence, the impact that machine learning has on UX, and the changing role of design and development with the advancement of technology",
         url:
           "https://www.youtube.com/watch?v=Q1qhY1KOGZ8&list=PLUW5utnrTMQc2VMdpf8cPz9qQpHGWL-iu&index=9&t=0s",
-        image: "images/image7.5.jpg",
+        image: "images/image6.5.jpg",
       },
 
       link6: {
@@ -312,7 +308,7 @@ const content = {
           "How machine learning creates new opportunities and new problems in product design, and look at some examples of ML applied in products we use today",
         url:
           "https://www.youtube.com/watch?v=KorYFmFNMzY&list=PLUW5utnrTMQc2VMdpf8cPz9qQpHGWL-iu&index=17&t=0s",
-        image: "images/image7.6.jpg",
+        image: "images/image6.6.jpg",
       },
 
       link7: {
@@ -321,7 +317,7 @@ const content = {
           "In this talk, Srikanth Velamakanni unfolds how AI and Design together can develop workable solutions and solve problems at scale",
         url:
           "https://www.youtube.com/watch?v=gE9mipJHOhI&list=PLUW5utnrTMQc2VMdpf8cPz9qQpHGWL-iu&index=24&t=0s",
-        image: "images/image7.7.jpg",
+        image: "images/image6.7.jpg",
       },
 
       link8: {
@@ -329,12 +325,12 @@ const content = {
         description:
           "What can AI learn from design, and what can design reveal about what goes on within AI",
         url: "https://www.youtube.com/watch?v=5EDAEl6pVCw",
-        image: "images/image7.8.jpg",
+        image: "images/image6.8.jpg",
       },
     },
   },
 
-  section8: {
+  section7: {
     name: "Tools",
     list: {
       link1: {
@@ -342,7 +338,7 @@ const content = {
         description:
           "Bring the power of artificial intelligence to your creative projects with an intuitive and simple visual interface",
         url: "https://runwayml.com/",
-        image: "images/image8.1.jpg",
+        image: "images/image7.1.jpg",
       },
 
       link2: {
@@ -350,7 +346,7 @@ const content = {
         description:
           "Experimental computational design platform for exploring generative space",
         url: "https://components.ai/",
-        image: "images/image8.2.jpg",
+        image: "images/image7.2.jpg",
       },
 
       link3: {
@@ -358,7 +354,7 @@ const content = {
         description:
           "Train a computer to recognize your own images, sounds, & poses. A fast, easy way to create machine learning models for your sites, apps, and more – no expertise or coding required",
         url: "https://teachablemachine.withgoogle.com/",
-        image: "images/image8.3.jpg",
+        image: "images/image7.3.jpg",
       },
 
       link4: {
@@ -366,7 +362,7 @@ const content = {
         description:
           "Build, train, and ship custom deep learning models using a simple visual interface",
         url: "https://lobe.ai/",
-        image: "images/image8.4.jpg",
+        image: "images/image7.4.jpg",
       },
 
       link5: {
@@ -374,7 +370,7 @@ const content = {
         description:
           "The core open source library to help you develop and train ML models",
         url: "https://www.tensorflow.org/",
-        image: "images/image8.5.jpg",
+        image: "images/image7.5.jpg",
       },
 
       link6: {
@@ -382,7 +378,7 @@ const content = {
         description:
           "ml5.js aims to make machine learning approachable for a broad audience. The library provides access to machine learning algorithms in the browser, building on top of TensorFlow",
         url: "https://ml5js.org/",
-        image: "images/image8.6.jpg",
+        image: "images/image7.6.jpg",
       },
 
       link7: {
@@ -390,7 +386,7 @@ const content = {
         description:
           "p5.js is a JavaScript library for creative coding, with a focus on making coding accessible and inclusive for artists, designers, educators, beginners, and anyone else",
         url: "https://p5js.org/",
-        image: "images/image8.7.jpg",
+        image: "images/image7.7.jpg",
       },
 
       link8: {
@@ -398,7 +394,7 @@ const content = {
         description:
           "Use Looka's AI-powered platform to design a logo, make a website, and build a brand you love",
         url: "https://looka.com/",
-        image: "images/image8.8.jpg",
+        image: "images/image7.8.jpg",
       },
 
       link9: {
@@ -406,7 +402,7 @@ const content = {
         description:
           "A collection of music plugins built on Magenta’s open source tools and models. They use cutting-edge machine learning techniques for music generation",
         url: "https://magenta.tensorflow.org/studio",
-        image: "images/image8.9.jpg",
+        image: "images/image7.9.jpg",
       },
 
       link10: {
@@ -414,14 +410,14 @@ const content = {
         description:
           "A deep neural network that can generate 4-minute musical compositions with 10 different instruments, and can combine styles from country to Mozart to the Beatles",
         url: "https://openai.com/blog/musenet/",
-        image: "images/image8.10.jpg",
+        image: "images/image7.10.jpg",
       },
 
       link11: {
         title: "Fontjoy",
         description: "Generate font combinations with deep learning",
         url: "https://fontjoy.com/",
-        image: "images/image8.11.jpg",
+        image: "images/image7.11.jpg",
       },
 
       link12: {
@@ -429,7 +425,7 @@ const content = {
         description:
           "Using artificial intelligence to surface new relationships across fonts. This interactive map of more than 750 fonts has been organized using machine learning",
         url: "http://fontmap.ideo.com/",
-        image: "images/image8.12.jpg",
+        image: "images/image7.12.jpg",
       },
 
       link13: {
@@ -437,7 +433,7 @@ const content = {
         description:
           "Powerful AI to increase image resolution without quality loss",
         url: "https://letsenhance.io/",
-        image: "images/image8.13.jpg",
+        image: "images/image7.13.jpg",
       },
 
       link14: {
@@ -445,7 +441,15 @@ const content = {
         description:
           "A website dedicated to helping you remove image backgrounds as quickly and painlessly as possible",
         url: "https://clippingmagic.com/",
-        image: "images/image8.14.jpg",
+        image: "images/image7.14.jpg",
+      },
+
+      link15: {
+        title: "Brandmark",
+        description:
+          "Create a unique logo, business card and social media graphics in less than a minute. Build your brand identity with generative AI",
+        url: "https://brandmark.io/",
+        image: "images/image7.15.jpg",
       },
     },
   },

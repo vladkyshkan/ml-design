@@ -21,10 +21,12 @@ const StyledLink = styled(Link)`
   font-size: 15px;
   margin-left: 40px;
   text-decoration: none;
+  transition: color 0.2s ease-in-out;
 
   :hover {
     cursor: pointer;
     color: #6275ff;
+    transition: color 0.2s ease-in-out;
   }
 
   &.active {

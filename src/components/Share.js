@@ -1,13 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { FacebookShareButton, TwitterShareButton } from "react-share";
 
 function Share() {
-  const shareUrl = "http://www.machinelearning.design/";
+  const shareUrl = "https://www.machinelearning.design/";
 
   const title = "Machine Learning + Design";
 
-  const shareLink = () => {};
+  const [copyLink, setCopyLink] = useState("Copy link");
+
+  function copyToClipboard() {
+    const dummy = document.createElement("input");
+    document.body.appendChild(dummy);
+    dummy.setAttribute("value", shareUrl);
+    dummy.select();
+    document.execCommand("copy");
+    document.body.removeChild(dummy);
+    setCopyLink("Copied!");
+  }
 
   return (
     <ShareStyled>
@@ -51,7 +61,10 @@ function Share() {
             </svg>
           </ButtonShare>
         </TwitterShareButton>
-        <ButtonShare>
+        <ButtonShare
+          onClick={copyToClipboard}
+          onMouseLeave={() => setCopyLink("Copy link")}
+        >
           <svg
             width="24"
             height="24"
@@ -74,7 +87,7 @@ function Share() {
               strokeLinejoin="round"
             />
           </svg>
-          <Tooltip>Copy link</Tooltip>
+          <Tooltip>{copyLink}</Tooltip>
         </ButtonShare>
       </ShareButtons>
     </ShareStyled>
@@ -144,7 +157,7 @@ const ButtonShare = styled.button`
 `;
 
 const Tooltip = styled.span`
-  width: 90px;
+  width: 84px;
   height: 24px;
   font-size: 16px;
   line-height: 24px;

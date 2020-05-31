@@ -110,21 +110,16 @@ const ResourceLinkList = styled.div`
     color: #282d31;
   }
 
-  @media only screen and (max-width: 1023px) {
+  @media only screen and (max-width: 1279px) {
     display: flex;
     overflow-x: scroll;
     overflow-y: hidden;
     scrollbar-width: none;
-    width: 110%;
-    margin-left: -5%;
-    margin-bottom: -64px;
-    padding-bottom: 64px;
+    width: calc(100% + 64px);
+    margin-left: -32px;
+    margin-bottom: -96px;
+    padding-bottom: 96px;
     gap: 0;
-  }
-
-  @media only screen and (max-width: 768px) {
-    width: calc(100% + 32px);
-    margin-left: -16px;
 
     &::-webkit-scrollbar {
       width: 0px;
@@ -133,11 +128,20 @@ const ResourceLinkList = styled.div`
       -ms-overflow-style: none;
     }
   }
+
+  @media only screen and (max-width: 768px) {
+    width: calc(100% + 32px);
+    margin-left: -16px;
+  }
 `;
 
 const StyledTilt = styled.div`
-  @media only screen and (max-width: 1023px) {
+  @media only screen and (max-width: 1279px) {
     margin-left: 24px;
+
+    &:nth-last-child(1) {
+      padding-right: 24px;
+    }
   }
 
   @media only screen and (max-width: 768px) {

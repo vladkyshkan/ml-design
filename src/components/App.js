@@ -213,6 +213,8 @@ const HeroScreen = styled.div`
   height: 100vh;
   max-height: 700px;
   background: #e5eaef;
+  position: relative;
+  overflow: hidden;
 
   @media only screen and (max-width: 640px) {
     height: 580px;
@@ -222,6 +224,14 @@ const HeroScreen = styled.div`
 const HeroTitle = styled.div`
   padding-top: 80px;
   z-index: 5;
+
+  @media only screen and (max-width: 1120px) {
+    padding-top: 120px;
+  }
+
+  @media only screen and (max-width: 640px) {
+    padding-top: 80px;
+  }
 `;
 
 const HeroContent = styled.div`
@@ -239,6 +249,12 @@ const HeroContent = styled.div`
       }
     }
   }
+
+  @media only screen and (max-width: 1120px) {
+    img {
+      animation: none;
+    }
+  }
 `;
 
 const ImageContainer = styled.div`
@@ -246,7 +262,11 @@ const ImageContainer = styled.div`
   clip-path: inset(-50px -50px -40px -50px);
 
   @media only screen and (max-width: 1120px) {
-    margin: 80px 0 0 0;
+    margin: 0;
+    clip-path: none;
+    position: absolute;
+    top: 120px;
+    left: 550px;
   }
 
   @media only screen and (max-width: 640px) {

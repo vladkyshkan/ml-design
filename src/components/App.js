@@ -63,7 +63,7 @@ function App() {
             </HeroTitle>
             <ImageContainer>
               <img
-                srcset="images/hero-image.jpg 1x, images/hero-image@2x.jpg 2x"
+                srcSet="images/hero-image.jpg 1x, images/hero-image@2x.jpg 2x"
                 alt="Generative graphics"
               />
             </ImageContainer>

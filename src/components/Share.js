@@ -24,7 +24,7 @@ function Share() {
       <H2>Spread the word</H2>
       <ShareButtons>
         <FacebookShareButton url={shareUrl} quote={title}>
-          <ButtonShare>
+          <ButtonShareContainer>
             <svg
               width="24"
               height="24"
@@ -40,10 +40,10 @@ function Share() {
                 strokeLinejoin="round"
               />
             </svg>
-          </ButtonShare>
+          </ButtonShareContainer>
         </FacebookShareButton>
         <TwitterShareButton url={shareUrl} quote={title}>
-          <ButtonShare>
+          <ButtonShareContainer>
             <svg
               width="24"
               height="24"
@@ -59,9 +59,9 @@ function Share() {
                 strokeLinejoin="round"
               />
             </svg>
-          </ButtonShare>
+          </ButtonShareContainer>
         </TwitterShareButton>
-        <ButtonShare
+        <ButtonShareContainer
           onClick={copyToClipboard}
           onMouseLeave={() => setCopyLink("Copy link")}
         >
@@ -88,7 +88,7 @@ function Share() {
             />
           </svg>
           <Tooltip>{copyLink}</Tooltip>
-        </ButtonShare>
+        </ButtonShareContainer>
       </ShareButtons>
     </ShareStyled>
   );
@@ -97,9 +97,8 @@ function Share() {
 const ShareStyled = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  margin: 128px auto 0;
+  margin-top: 128px;
 
   @media only screen and (max-width: 640px) {
     margin-top: 64px;
@@ -120,10 +119,9 @@ const H2 = styled.h2`
 
 const ShareButtons = styled.div`
   display: flex;
-  align-items: center;
 `;
 
-const ButtonShare = styled.button`
+const ButtonShareContainer = styled.div`
   width: 64px;
   height: 64px;
   background: #eff3f6;
@@ -134,8 +132,8 @@ const ButtonShare = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 24px;
   position: relative;
+  margin: 0 24px;
 
   svg path {
     transition: stroke 0.2s ease-in-out;
@@ -162,6 +160,7 @@ const Tooltip = styled.span`
   font-size: 16px;
   line-height: 24px;
   font-family: "Space";
+  text-align: center;
   color: #505b64;
   background-color: #f8faff;
   border-radius: 20px;
@@ -170,7 +169,7 @@ const Tooltip = styled.span`
   display: none;
 
   @media (hover: hover) {
-    ${ButtonShare}:hover & {
+    ${ButtonShareContainer}:hover & {
       display: block;
       box-shadow: 10px 20px 40px #c3c7d1, -10px -20px 40px #ffffff;
       animation: fadeInDown 0.2s;

@@ -1,7 +1,82 @@
 const content = {
   section1: {
     name: "Articles",
-    list: {},
+    list: {
+      link1: {
+        title: "Human-Centered Machine Learning",
+        description:
+          "7 steps to stay focused on the user when designing with ML by Google UX team",
+        url:
+          "https://medium.com/google-design/human-centered-machine-learning-a770d10562cd",
+        image: "images/image1.1.jpg",
+      },
+
+      link2: {
+        title: "An intro to Machine Learning for designers",
+        description:
+          "The basics of machine learning and how to apply it to the products you are building right now",
+        url:
+          "https://uxdesign.cc/an-intro-to-machine-learning-for-designers-5c74ba100257",
+        image: "images/image1.2.jpg",
+      },
+
+      link3: {
+        title: "A visual introduction to machine learning",
+        description:
+          "The article explains the basic concepts behind machine learning using a set of animated visualizations",
+        url: "http://www.r2d3.us/visual-intro-to-machine-learning-part-1/",
+        image: "images/image1.3.jpg",
+      },
+
+      link4: {
+        title: "Machine Learning is Fun!",
+        description:
+          "Th guide for anyone who is curious about machine learning but has no idea where to start",
+        url:
+          "https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471",
+        image: "images/image1.4.jpg",
+      },
+
+      link5: {
+        title: "Algorithm-Driven Design",
+        description:
+          "A collection of algorithm-driven design practical examples",
+        url: "https://algorithms.design/",
+        image: "images/image1.5.jpg",
+      },
+
+      link6: {
+        title: "Machine Learning for Product Managers",
+        description: "A product-centric overview of machine learning",
+        url:
+          "https://medium.com/@neal_lathia/machine-learning-for-product-managers-ba9cf8724e57",
+        image: "images/image1.6.jpg",
+      },
+
+      link7: {
+        title: "5 Machine Learning lessons for Product Managers",
+        description:
+          "AI is the biggest commercial opportunity in today’s economy. What does it mean for product managers?",
+        url: "https://nfng.pro/2020/05/08/ml-pm/",
+        image: "images/image1.7.jpg",
+      },
+
+      link8: {
+        title: "Experience Design in the Machine Learning Era",
+        description:
+          "Notes for designers and data scientists who create together systems that learn from human behaviors",
+        url:
+          "https://www.bbvadata.com/experience-design-in-the-machine-learning-era/",
+        image: "images/image1.8.jpg",
+      },
+
+      link9: {
+        title: "",
+        description: "",
+        url: "",
+        image: "images/image1.9.jpg",
+      },
+    },
   },
 
   section2: {

@@ -33,8 +33,33 @@ const StyledLink = styled(Link)`
 
   &.active {
     color: #6275ff;
-    padding-bottom: 29px;
+    padding-bottom: 25px;
     border-bottom: 2px solid #6275ff;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    margin: 24px 0 0 32px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #b9cbd9;
+    width: calc(100% - 64px);
+
+    :nth-child(1) {
+      margin-top: 80px;
+    }
+
+    &.active {
+      padding-bottom: 24px;
+      border-bottom: 1px solid #b9cbd9;
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+    margin-left: 16px;
+    width: calc(100% - 32px);
+
+    :nth-child(1) {
+      margin-top: 64px;
+    }
   }
 `;
 

@@ -26,6 +26,52 @@ function App() {
                 A collection of resources for intersection of design, user
                 experience, machine learning and artificial intelligence
               </P>
+              <BenefitsList>
+                <BenefitItem>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      opacity="0.1"
+                      cx="12"
+                      cy="12"
+                      r="12"
+                      fill="#6275FF"
+                    />
+                    <path
+                      d="M10.4702 18.599C10.0787 18.599 9.70786 18.4163 9.47026 18.1013L6.25456 13.8524C5.83606 13.3007 5.94496 12.515 6.49756 12.0965C7.05106 11.6762 7.83676 11.7869 8.25526 12.3395L10.3712 15.1331L15.6911 6.59033C16.0574 6.00353 16.8314 5.82353 17.42 6.18983C18.0077 6.55523 18.1886 7.32923 17.8214 7.91783L11.5358 18.0068C11.318 18.3587 10.9409 18.5783 10.5278 18.5972C10.508 18.599 10.49 18.599 10.4702 18.599V18.599Z"
+                      fill="#6275FF"
+                    />
+                  </svg>
+                  70+ articles, books, videos & other useful links
+                </BenefitItem>
+                <BenefitItem>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      opacity="0.1"
+                      cx="12"
+                      cy="12"
+                      r="12"
+                      fill="#6275FF"
+                    />
+                    <path
+                      d="M10.4702 18.599C10.0787 18.599 9.70786 18.4163 9.47026 18.1013L6.25456 13.8524C5.83606 13.3007 5.94496 12.515 6.49756 12.0965C7.05106 11.6762 7.83676 11.7869 8.25526 12.3395L10.3712 15.1331L15.6911 6.59033C16.0574 6.00353 16.8314 5.82353 17.42 6.18983C18.0077 6.55523 18.1886 7.32923 17.8214 7.91783L11.5358 18.0068C11.318 18.3587 10.9409 18.5783 10.5278 18.5972C10.508 18.599 10.49 18.599 10.4702 18.599V18.599Z"
+                      fill="#6275FF"
+                    />
+                  </svg>
+                  Tools to experiment with machine learning
+                </BenefitItem>
+              </BenefitsList>
               <Buttons>
                 <ButtonMain to="Articles" offset={30} smooth={true}>
                   Read more
@@ -88,7 +134,7 @@ const H1 = styled.h1`
   line-height: 100px;
   font-family: "SpaceMono", monospace;
   font-weight: 400;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
   color: #282d31;
   text-transform: uppercase;
 
@@ -116,9 +162,32 @@ const H1 = styled.h1`
 
 const P = styled.p`
   font-size: 18px;
-  line-height: 27px;
+  line-height: 26px;
   margin: 0;
   max-width: 520px;
+
+  @media only screen and (max-width: 640px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+`;
+
+const BenefitsList = styled.ul`
+  margin: 0;
+  padding: 0;
+  list-style: none;
+`;
+
+const BenefitItem = styled.li`
+  font-size: 18px;
+  line-height: 26px;
+  margin: 16px 0 0 0;
+  display: flex;
+  align-items: center;
+
+  svg {
+    margin-right: 16px;
+  }
 
   @media only screen and (max-width: 640px) {
     font-size: 16px;
@@ -217,20 +286,20 @@ const HeroScreen = styled.div`
   overflow: hidden;
 
   @media only screen and (max-width: 640px) {
-    height: 580px;
+    height: 640px;
   }
 `;
 
 const HeroTitle = styled.div`
-  padding-top: 80px;
+  padding-top: 40px;
   z-index: 5;
 
   @media only screen and (max-width: 1120px) {
-    padding-top: 120px;
+    padding-top: 80px;
   }
 
   @media only screen and (max-width: 640px) {
-    padding-top: 80px;
+    padding-top: 32px;
   }
 `;
 
@@ -275,10 +344,10 @@ const ImageContainer = styled.div`
 `;
 
 const Buttons = styled.div`
-  margin-top: 48px;
+  margin-top: 64px;
 
   @media only screen and (max-width: 640px) {
-    margin-top: 24px;
+    margin-top: 32px;
   }
 `;
 

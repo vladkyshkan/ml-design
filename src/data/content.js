@@ -38,18 +38,21 @@ const content = {
       },
 
       link5: {
-        title: "Algorithm-Driven Design",
+        title: "Why Machine Learning and AI matter for design teams",
         description:
-          "A collection of algorithm-driven design practical examples",
-        url: "https://algorithms.design/",
+          "Why designing for machine learning should be on the radar for all design teams today",
+        url:
+          "https://bigmedium.com/ideas/why-machine-learning-and-ai-matter-for-design-team.html",
         image: "images/image1.5.jpg",
       },
 
       link6: {
-        title: "Machine Learning for Product Managers",
-        description: "A product-centric overview of machine learning",
+        title:
+          "The Step-By-Step PM Guide to Building Machine Learning Based Products",
+        description:
+          "A step-by-step guide to becoming an effective PM in an organization that leverages ML to achieve business goals",
         url:
-          "https://medium.com/@neal_lathia/machine-learning-for-product-managers-ba9cf8724e57",
+          "https://medium.com/@yaelg/product-manager-pm-step-by-step-tutorial-building-machine-learning-products-ffa7817aa8ab",
         image: "images/image1.6.jpg",
       },
 
@@ -71,10 +74,84 @@ const content = {
       },
 
       link9: {
+        title: "Six AI Terms UXers Should Know",
+        description: "Clear and simple definitions of essential concepts",
+        url: "https://design.google/library/six-ai-terms/",
+        image: "images/image1.9.jpg",
+      },
+
+      link10: {
+        title: "Applications Of Machine Learning For Designers",
+        description:
+          "This article illustrates the power of machine learning through the applications of detection, prediction and generation",
+        url:
+          "https://www.smashingmagazine.com/2017/04/applications-machine-learning-designers/",
+        image: "images/image1.10.jpg",
+      },
+
+      link11: {
+        title: "How AI has started to impact our work as designers",
+        description:
+          "How is AI & ML changing the way we work in the near future?",
+        url:
+          "https://uxdesign.cc/how-ai-will-impact-your-routine-as-a-designer-2773a4b1728c",
+        image: "images/image1.11.jpg",
+      },
+
+      link12: {
+        title: "Human-centered AI cheat-sheet",
+        description:
+          "Cheat-sheet of questions-as-guidance for integrating AI into early-stage product development",
+        url: "https://uxdesign.cc/human-centered-ai-cheat-sheet-1da130ba1bab",
+        image: "images/image1.12.jpg",
+      },
+
+      link13: {
+        title: "Will AI take over UX?",
+        description:
+          "From research to flow diagrams and business analysis — AI can revolutionise the way we design digital products",
+        url: "https://uxdesign.cc/will-ai-take-over-ux-ea164a2ed39f",
+        image: "images/image1.13.jpg",
+      },
+
+      link14: {
+        title: "What is the role of an AI designer?",
+        description:
+          "What designers on the Facebook’s Artificial Intelligence team are working on day-to-day",
+        url:
+          "https://medium.com/@amandalinden/what-is-the-role-of-an-a-i-designer-6943711046ec",
+        image: "images/image1.14.jpg",
+      },
+
+      link15: {
+        title: "Design makes AI smarter",
+        description:
+          "Be user centric and focused. Build a give-and-take relationship that engages users to teach the AI",
+        url: "https://uxdesign.cc/design-makes-ai-smarter-34a346e92b47",
+        image: "images/image1.15.jpg",
+      },
+
+      link16: {
+        title: "Designing with AI",
+        description:
+          "Product designer at Facebook shares lessons from designing an artificial intelligence–enabled experience",
+        url:
+          "https://medium.com/facebook-design-business-tools/designing-with-ai-3f7652619f4",
+        image: "images/image1.16.jpg",
+      },
+
+      link17: {
         title: "",
         description: "",
         url: "",
-        image: "images/image1.9.jpg",
+        image: "images/image1.17.jpg",
+      },
+
+      link18: {
+        title: "",
+        description: "",
+        url: "",
+        image: "images/image1.18.jpg",
       },
     },
   },
@@ -101,79 +178,69 @@ const content = {
       },
 
       link3: {
-        title:
-          "How to Speak Machine: Computational Thinking for the Rest of Us",
+        title: "The Master Algorithm",
         description:
-          "How businesses and individuals can identify opportunities afforded by technology to make world-changing products",
+          "A thought-provoking and wide-ranging exploration of machine learning and the race to build computer intelligences as flexible as our own",
         url:
           "https://www.amazon.com/Master-Algorithm-Ultimate-Learning-Machine-ebook/dp/B012271YB2",
         image: "images/image2.3.jpg",
       },
 
       link4: {
-        title: "The Master Algorithm",
-        description:
-          "A thought-provoking and wide-ranging exploration of machine learning and the race to build computer intelligences as flexible as our own",
-        url:
-          "https://www.amazon.com/Master-Algorithm-Ultimate-Learning-Machine-ebook/dp/B012271YB2",
-        image: "images/image2.4.jpg",
-      },
-
-      link5: {
         title: "Superintelligence: Paths, Dangers, Strategies",
         description:
           "This book argues that if machine brains surpass human brains in general intelligence, then it could replace humans as the dominant lifeform on Earth",
         url:
           "https://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom-ebook/dp/B00LOOCGB2/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=",
-        image: "images/image2.5.jpg",
+        image: "images/image2.4.jpg",
       },
 
-      link6: {
+      link5: {
         title: "Artificial Intelligence Driven Design (free)",
         description:
           "How Artificial Intelligence will impact UX design, and how to design meaningful experiences in an era with AI-driven products & services",
         url:
           "https://www.awwwards.com/AI-driven-design?amp%3Butm_content=ai_design&amp%3Butm_medium=social&amp%3Butm_source=twitter&utm_campaign=brain_food",
-        image: "images/image2.6.jpg",
+        image: "images/image2.5.jpg",
       },
 
-      link7: {
+      link6: {
         title:
           "Machine Learning Basics: An Illustrated Guide for Non-Technical Readers (free)",
         description:
           "The guidebook breaks down some of the fundamental concepts of machine learning",
         url:
           "https://pages.dataiku.com/hubfs/Guidebooks/Machine%20Learning%20Basics/GUIDEBOOK%20MACHINE%20LEARNING%20BASICS.pdf",
-        image: "images/image2.7.jpg",
+        image: "images/image2.6.jpg",
       },
 
-      link8: {
+      link7: {
         title:
           "Prediction Machines: The Simple Economics of Artificial Intelligence",
         description:
           "What does AI mean for the business? Read this book to find out",
         url:
           "https://www.amazon.com/Prediction-Machines-Economics-Artificial-Intelligence/dp/1633695670",
-        image: "images/image2.8.jpg",
+        image: "images/image2.7.jpg",
       },
 
-      link9: {
+      link8: {
         title: "Human + Machine: Reimagining Work in the Age of AI",
         description:
           "The book reveals how companies are using the new rules of AI to leap ahead on innovation and profitability",
         url:
           "https://www.amazon.com/Human-Machine-Reimagining-Work-Age/dp/1633693864",
-        image: "images/image2.9.jpg",
+        image: "images/image2.8.jpg",
       },
 
-      link10: {
+      link9: {
         title:
           "Applied Artificial Intelligence: A Handbook For Business Leaders",
         description:
           "A guide for business leaders who are passionate about leveraging AI to enhance the productivity of their organizations",
         url:
           "https://www.amazon.com/Applied-Artificial-Intelligence-Handbook-Business-ebook/dp/B07DHZT2DW",
-        image: "images/image2.10.jpg",
+        image: "images/image2.9.jpg",
       },
     },
   },
@@ -203,6 +270,14 @@ const content = {
           "Using Google Clips to understand how a human-centered design process elevates artificial intelligence",
         url: "https://design.google/library/ux-ai/",
         image: "images/image3.3.jpg",
+      },
+
+      link4: {
+        title: "Algorithm-Driven Design",
+        description:
+          "A collection of algorithm-driven design practical examples",
+        url: "https://algorithms.design/",
+        image: "images/image3.4.jpg",
       },
     },
   },

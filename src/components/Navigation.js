@@ -22,11 +22,20 @@ const NavigationStyled = styled.nav`
     left: 0;
     flex-direction: column;
     display: ${({ open }) => (open ? "flex" : "none")};
-    transition: transform 0.3s ease-in-out;
+    animation: fadein 0.3s;
     width: 100vw;
     height: 100vh;
     z-index: 99;
     background-color: rgba(229, 234, 239);
+
+    @keyframes fadein {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
   }
 `;
 

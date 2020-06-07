@@ -116,9 +116,8 @@ const ResourceLinkList = styled.div`
     overflow-y: hidden;
     scrollbar-width: none;
     width: calc(100% + 64px);
-    margin-left: -32px;
-    margin-bottom: -96px;
-    padding-bottom: 96px;
+    margin: -96px 0 -96px -32px;
+    padding: 96px 0;
     gap: 0;
 
     &::-webkit-scrollbar {
@@ -136,6 +135,14 @@ const ResourceLinkList = styled.div`
 `;
 
 const StyledTilt = styled.div`
+  transform: translateZ(-100px);
+
+  @media (hover: hover) {
+    :hover {
+      opacity: 1;
+    }
+  }
+
   @media only screen and (max-width: 1279px) {
     margin-left: 24px;
 

@@ -280,7 +280,7 @@ const Wrapper = styled.div`
 
 const HeroScreen = styled.div`
   height: 100vh;
-  max-height: 700px;
+  max-height: 800px;
   background: #e5eaef;
   position: relative;
   overflow: hidden;
@@ -293,6 +293,10 @@ const HeroScreen = styled.div`
 const HeroTitle = styled.div`
   padding-top: 40px;
   z-index: 5;
+
+  @media only screen and (min-height: 701px) {
+    padding-top: 80px;
+  }
 
   @media only screen and (max-width: 1120px) {
     padding-top: 80px;
@@ -329,6 +333,10 @@ const HeroContent = styled.div`
 const ImageContainer = styled.div`
   margin: 110px 0 0 120px;
   clip-path: inset(-50px -50px -40px -50px);
+
+  @media only screen and (min-height: 701px) {
+    margin: 150px 0 0 120px;
+  }
 
   @media only screen and (max-width: 1120px) {
     margin: 0;

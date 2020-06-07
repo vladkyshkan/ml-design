@@ -141,17 +141,56 @@ const content = {
       },
 
       link17: {
-        title: "",
-        description: "",
-        url: "",
+        title: "Inviting Algorithms to the Design Team",
+        description:
+          "Can AI and humans collaborate to leverage their unique strengths?",
+        url: "https://www.ideo.com/blog/inviting-algorithms-to-the-design-team",
         image: "images/image1.17.jpg",
       },
 
       link18: {
-        title: "",
-        description: "",
-        url: "",
+        title: "Rethinking Design Tools in the Age of Machine Learning",
+        description:
+          "How ML and AI will bring about a new generation of design tools that learn from and adapt to the user’s way of thinking",
+        url:
+          "https://medium.com/artists-and-machine-intelligence/rethinking-design-tools-in-the-age-of-machine-learning-369f3f07ab6c",
         image: "images/image1.18.jpg",
+      },
+
+      link19: {
+        title: "Design of Artificial Intelligence Products",
+        description:
+          "The class note of Design of AI Products taught by John Zimmerman in the HCII at Carnegie Mellon University",
+        url:
+          "https://medium.com/@chow0531/design-of-artificial-intelligence-products-2919a448decd",
+        image: "images/image1.19.jpg",
+      },
+
+      link20: {
+        title: "AI and Design: why AI is your creative partner",
+        description:
+          "AI is going to be a creative partner that can help us accelerate our creativity and explore design possibilities more deeply than ever before",
+        url:
+          "https://uxdesign.cc/ai-and-design-ai-is-your-creative-partner-cb035b8ef107",
+        image: "images/image1.20.jpg",
+      },
+
+      link21: {
+        title: "AI Product Management: Research, Requirements and Scope",
+        description:
+          "How should you prepare business requirements for the team? What questions should you ask during the research phase?",
+        url:
+          "https://uxplanet.org/ai-product-management-research-requirements-and-scope-7ccad87f51ad",
+        image: "images/image1.21.jpg",
+      },
+
+      link22: {
+        title: "The Design of AI-Based Products: 13 Things to Consider",
+        description:
+          "There are 13 things for a design team to consider when working on testable prototypes of AI products",
+        url:
+          "https://uxplanet.org/the-design-of-ai-based-products-13-things-to-consider-297ce9c0f0ba",
+        image: "images/image1.22.jpg",
       },
     },
   },
@@ -242,6 +281,16 @@ const content = {
           "https://www.amazon.com/Applied-Artificial-Intelligence-Handbook-Business-ebook/dp/B07DHZT2DW",
         image: "images/image2.9.jpg",
       },
+
+      link10: {
+        title:
+          "Artificial Intelligence: 101 Things You Must Know Today About Our Future",
+        description:
+          "Discover how technological breakthroughs will change your world",
+        url:
+          "https://www.amazon.com/gp/product/B079JXCVGS/ref=ppx_yo_dt_b_d_asin_title_o00?ie=UTF8&psc=1",
+        image: "images/image2.10.jpg",
+      },
     },
   },
 
@@ -278,6 +327,14 @@ const content = {
           "A collection of algorithm-driven design practical examples",
         url: "https://algorithms.design/",
         image: "images/image3.4.jpg",
+      },
+
+      link5: {
+        title: "Sketch2Code",
+        description:
+          "Sketch2Code converts hand-written drawings to HTML prototypes. Designers share ideas on a whiteboard, then changes are shown instantly in the browser",
+        url: "https://sketch2code.azurewebsites.net/",
+        image: "images/image3.5.jpg",
       },
     },
   },
@@ -403,8 +460,17 @@ const content = {
         title: "IDEO principles",
         description:
           "A set of principles and activities that IDEO team use today to ensure they’re intentionally designing intelligent systems in service of people",
-        url: "https://medium.com/ideo-stories/data-ethics-and-ai-276723a1a2fc",
+        url:
+          "https://www.ideo.com/blog/ai-needs-an-ethical-compass-this-tool-can-help",
         image: "images/image5.6.jpg",
+      },
+
+      link7: {
+        title: "Lingua Franca: A Design Language for Human-Centered AI",
+        description:
+          "A set of techniques, frameworks, visuals, messaging, and overall design patterns that apply broadly to different kinds of AI",
+        url: "https://linguafranca.polytopal.ai/",
+        image: "images/image5.7.jpg",
       },
     },
   },
@@ -476,6 +542,14 @@ const content = {
           "What can AI learn from design, and what can design reveal about what goes on within AI",
         url: "https://www.youtube.com/watch?v=5EDAEl6pVCw",
         image: "images/image6.8.jpg",
+      },
+
+      link9: {
+        title: "Designing Artificial Intelligence Interfaces",
+        description:
+          "Laney Caldwell, Product Manager at x.ai, discussed some of the challenges designing invisible software",
+        url: "https://www.youtube.com/watch?v=zMPja7wdvwI",
+        image: "images/image6.9.jpg",
       },
     },
   },

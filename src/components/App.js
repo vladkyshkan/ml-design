@@ -223,7 +223,7 @@ const ButtonMain = styled(Link)`
     }
   }
 
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 540px) {
     width: 100%;
     display: block;
   }
@@ -261,7 +261,7 @@ const ButtonSecondary = styled.a`
     }
   }
 
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 540px) {
     width: 100%;
     display: block;
     margin: 16px 0 0 0;
@@ -298,7 +298,7 @@ const HeroTitle = styled.div`
     padding-top: 80px;
   }
 
-  @media only screen and (max-width: 640px) {
+  @media only screen and (max-width: 540px) {
     padding-top: 32px;
   }
 `;
@@ -346,7 +346,7 @@ const ImageContainer = styled.div`
 const Buttons = styled.div`
   margin-top: 64px;
 
-  @media only screen and (max-width: 640px) {
+  @media only screen and (max-width: 540px) {
     margin-top: 32px;
   }
 `;

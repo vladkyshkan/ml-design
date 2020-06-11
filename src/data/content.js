@@ -31,7 +31,7 @@ const content = {
       link4: {
         title: "Machine Learning is Fun!",
         description:
-          "Th guide for anyone who is curious about machine learning but has no idea where to start",
+          "The guide for anyone who is curious about machine learning but has no idea where to start",
         url:
           "https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471",
         image: "images/image1.4.jpg",

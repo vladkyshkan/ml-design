@@ -137,12 +137,6 @@ const ResourceLinkList = styled.div`
 const StyledTilt = styled.div`
   transform: translateZ(-100px);
 
-  @media (hover: hover) {
-    :hover {
-      opacity: 1;
-    }
-  }
-
   @media only screen and (max-width: 1279px) {
     margin-left: 24px;
 

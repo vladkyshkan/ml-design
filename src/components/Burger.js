@@ -1,9 +1,29 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import Navigation from "./Navigation";
 
 function Burger() {
   const [open, setOpen] = useState(false);
+  const [size, setSize] = useState(window.innerWidth);
+
+  const setWidthScreen = () => {
+    setSize(window.innerWidth);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", setWidthScreen);
+    return () => {
+      window.addEventListener("resize", setWidthScreen);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (open) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "scroll";
+    }
+  }, [open]);
 
   return (
     <>
@@ -12,7 +32,7 @@ function Burger() {
         <div />
         <div />
       </BurgerStyled>
-      <Navigation open={open} />
+      <Navigation open={open} setOpen={setOpen} size={size} />
     </>
   );
 }

@@ -3,11 +3,17 @@ import styled from "styled-components";
 import content from "../data/content";
 import ButtonNav from "./ButtonNav";
 
-const Navigation = ({ open }) => {
+const Navigation = ({ open, setOpen, size }) => {
   return (
     <NavigationStyled open={open}>
       {Object.keys(content).map((key) => (
-        <ButtonNav key={key} name={content[key].name} />
+        <ButtonNav
+          key={key}
+          name={content[key].name}
+          open={open}
+          setOpen={setOpen}
+          size={size}
+        />
       ))}
     </NavigationStyled>
   );

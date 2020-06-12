@@ -2,16 +2,19 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-scroll";
 
-const ButtonNav = (props) => {
+const ButtonNav = ({ name, open, setOpen, size }) => {
   return (
     <StyledLink
       activeClass="active"
-      to={`${props.name}`}
+      to={`${name}`}
       offset={30}
       spy={true}
-      smooth={true}
+      smooth={size > 1024}
+      onClick={() => {
+        setOpen((open) => !open);
+      }}
     >
-      {props.name}
+      {name}
     </StyledLink>
   );
 };

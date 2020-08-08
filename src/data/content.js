@@ -192,6 +192,24 @@ const content = {
           "https://uxplanet.org/the-design-of-ai-based-products-13-things-to-consider-297ce9c0f0ba",
         image: "images/image1.22.jpg",
       },
+
+      link23: {
+        title: "Designing AI products",
+        description:
+          "A compilation of best practices for designers, managers and HCI practitioners to build human-centred AI products",
+        url:
+          "https://woktossrobot.com/aiguide/index.html",
+        image: "images/image1.23.jpg",
+      },
+
+      link24: {
+        title: "Design and machine learning",
+        description:
+          "What design and machine learning have to offer each other",
+        url:
+          "https://matthewstrom.com/writing/design-and-ml/",
+        image: "images/image1.24.jpg",
+      },
     },
   },
 
@@ -335,6 +353,14 @@ const content = {
           "Sketch2Code converts hand-written drawings to HTML prototypes. Designers share ideas on a whiteboard, then changes are shown instantly in the browser",
         url: "https://sketch2code.azurewebsites.net/",
         image: "images/image3.5.jpg",
+      },
+
+      link6: {
+        title: "Designer",
+        description:
+          "GPT-3 based Figma plugin that has the ability to generate a functional prototype from raw text",
+        url: "https://ibuildmyideas.substack.com/p/i-build-my-ideas-8-071920",
+        image: "images/image3.6.jpg",
       },
     },
   },
@@ -674,6 +700,51 @@ const content = {
           "Create a unique logo, business card and social media graphics in less than a minute. Build your brand identity with generative AI",
         url: "https://brandmark.io/",
         image: "images/image7.15.jpg",
+      },
+
+      link16: {
+        title: "uizard",
+        description:
+          "Uizard is a rapid prototyping tool used for transforming your wireframes into prototype automatically",
+        url: "https://uizard.io/",
+        image: "images/image7.16.jpg",
+      },
+    },
+  },
+
+  section8: {
+    name: "Podcasts",
+    list: {
+      link1: {
+        title: "Design for AI",
+        description:
+          "In-depth interviews with experts and discussing topics to learn how to design machine learning to be usable by everyone",
+        url: "http://www.designforai.com/podcast/",
+        image: "images/image8.1.jpg",
+      },
+
+      link2: {
+        title: "The State of UX in AI with Josh Clark",
+        description:
+          "Josh Clark spent nearly two hours talking all about the state of UX in AI",
+        url: "https://userdefenders.com/podcast/the-state-of-ux-in-ai-with-josh-clark/",
+        image: "images/image8.2.jpg",
+      },
+
+      link3: {
+        title: "Design Details: GPT-3 and the Future of Design",
+        description:
+          "The talk about the recently-unveiled GPT-3 AI tool and the implications of AI for design",
+        url: "https://designdetails.fm/episodes/w1HpmWbW",
+        image: "images/image8.3.jpg",
+      },
+
+      link4: {
+        title: "Method: UX Writing for Machines",
+        description:
+          "This episode is about the role of UX writing in helping people use—and understand—machine learning-driven products",
+        url: "https://googledesignmethod.libsyn.com/website/roxanne-pinto-google-flights",
+        image: "images/image8.4.jpg",
       },
     },
   },

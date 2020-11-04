@@ -226,88 +226,97 @@ const content = {
       },
 
       link2: {
+        title: "AI and UX: Why Artificial Intelligence Needs User Experience",
+        description:
+          "This book shines a light on how user experience (UX) will play a significant role in adoption of AI technologies across industries",
+        url:
+          "https://www.amazon.com/AI-UX-Artificial-Intelligence-Experience-ebook-dp-B08LB3JLPB/dp/B08LB3JLPB/ref=mt_other?_encoding=UTF8&me=&qid=",
+        image: "images/image2.2.jpg",
+      },
+
+      link3: {
         title: "Machine Learning for Humans (free)",
         description:
           "Simple, plain-English explanations of machine learning accompanied by math, code, and real-world examples",
         url:
           "https://www.dropbox.com/s/e38nil1dnl7481q/machine_learning.pdf?dl=0",
-        image: "images/image2.2.jpg",
+        image: "images/image2.3.jpg",
       },
 
-      link3: {
+      link4: {
         title: "The Master Algorithm",
         description:
           "A thought-provoking and wide-ranging exploration of machine learning and the race to build computer intelligences as flexible as our own",
         url:
           "https://www.amazon.com/Master-Algorithm-Ultimate-Learning-Machine-ebook/dp/B012271YB2",
-        image: "images/image2.3.jpg",
+        image: "images/image2.4.jpg",
       },
 
-      link4: {
+      link5: {
         title: "Superintelligence: Paths, Dangers, Strategies",
         description:
           "This book argues that if machine brains surpass human brains in general intelligence, then it could replace humans as the dominant lifeform on Earth",
         url:
           "https://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom-ebook/dp/B00LOOCGB2/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=",
-        image: "images/image2.4.jpg",
+        image: "images/image2.5.jpg",
       },
 
-      link5: {
+      link6: {
         title: "Artificial Intelligence Driven Design (free)",
         description:
           "How Artificial Intelligence will impact UX design, and how to design meaningful experiences in an era with AI-driven products & services",
         url:
           "https://www.awwwards.com/AI-driven-design?amp%3Butm_content=ai_design&amp%3Butm_medium=social&amp%3Butm_source=twitter&utm_campaign=brain_food",
-        image: "images/image2.5.jpg",
+        image: "images/image2.6.jpg",
       },
 
-      link6: {
+      link7: {
         title:
           "Machine Learning Basics: An Illustrated Guide for Non-Technical Readers (free)",
         description:
           "The guidebook breaks down some of the fundamental concepts of machine learning",
         url:
           "https://pages.dataiku.com/hubfs/Guidebooks/Machine%20Learning%20Basics/GUIDEBOOK%20MACHINE%20LEARNING%20BASICS.pdf",
-        image: "images/image2.6.jpg",
+        image: "images/image2.7.jpg",
       },
 
-      link7: {
+      link8: {
         title:
           "Prediction Machines: The Simple Economics of Artificial Intelligence",
         description:
           "What does AI mean for the business? Read this book to find out",
         url:
           "https://www.amazon.com/Prediction-Machines-Economics-Artificial-Intelligence/dp/1633695670",
-        image: "images/image2.7.jpg",
+        image: "images/image2.8.jpg",
       },
 
-      link8: {
+      link9: {
         title: "Human + Machine: Reimagining Work in the Age of AI",
         description:
           "The book reveals how companies are using the new rules of AI to leap ahead on innovation and profitability",
         url:
           "https://www.amazon.com/Human-Machine-Reimagining-Work-Age/dp/1633693864",
-        image: "images/image2.8.jpg",
+        image: "images/image2.9.jpg",
       },
 
-      link9: {
+      link10: {
         title:
           "Applied Artificial Intelligence: A Handbook For Business Leaders",
         description:
           "A guide for business leaders who are passionate about leveraging AI to enhance the productivity of their organizations",
         url:
           "https://www.amazon.com/Applied-Artificial-Intelligence-Handbook-Business-ebook/dp/B07DHZT2DW",
-        image: "images/image2.9.jpg",
+        image: "images/image2.10.jpg",
       },
 
-      link10: {
+      link11: {
         title:
           "Artificial Intelligence: 101 Things You Must Know Today About Our Future",
         description:
           "Discover how technological breakthroughs will change your world",
         url:
           "https://www.amazon.com/gp/product/B079JXCVGS/ref=ppx_yo_dt_b_d_asin_title_o00?ie=UTF8&psc=1",
-        image: "images/image2.10.jpg",
+        image: "images/image2.11.jpg",
       },
     },
   },
@@ -432,6 +441,14 @@ const content = {
           "A set of tools for each step of the design thinking process to help designers turn AI into social, user, and business value",
         url: "https://aimeets.design/",
         image: "images/image4.8.jpg",
+      },
+
+      link9: {
+        title: "Designing Machine Learning",
+        description:
+          "A project by the Stanford d.School to make Machine Learning (ML) more accessible to innovators from all disciplines",
+        url: "https://designwith.ml/",
+        image: "images/image4.9.jpg",
       },
     },
   },
@@ -709,6 +726,30 @@ const content = {
         url: "https://uizard.io/",
         image: "images/image7.16.jpg",
       },
+
+      link17: {
+        title: "Obviously.ai",
+        description:
+          "Automated machine learning software that enables non-technical professionals to predict customer behavior",
+        url: "https://www.obviously.ai/",
+        image: "images/image7.17.jpg",
+      },
+
+      link18: {
+        title: "Playform",
+        description:
+          "Playform is a new way for visionary artists, creators, and designers to experiment, explore, and inspire with AI—no coding required",
+        url: "https://www.playform.io/",
+        image: "images/image7.18.jpg",
+      },
+
+      link19: {
+        title: "26 No/Low-code ML tools to check out",
+        description:
+          "An assessment of no/low-code tools for the machine learning process by their complexity & coverage",
+        url: "https://medium.com/aixdesign/26-no-code-low-code-ml-tools-to-check-out-8b3414eaa489",
+        image: "images/image7.19.jpg",
+      },
     },
   },
 
@@ -745,6 +786,19 @@ const content = {
           "This episode is about the role of UX writing in helping people use—and understand—machine learning-driven products",
         url: "https://googledesignmethod.libsyn.com/website/roxanne-pinto-google-flights",
         image: "images/image8.4.jpg",
+      },
+    },
+  },
+
+  section9: {
+    name: "Groups",
+    list: {
+      link1: {
+        title: "AIxDesign",
+        description:
+          "Exploring practices at the intersection of AI/ML and design",
+        url: "https://aixdesign.co/",
+        image: "images/image9.1.jpg",
       },
     },
   },

@@ -27,7 +27,7 @@ const StyledLink = styled(Link)`
   color: #282d31;
   font-size: 15px;
   line-height: 21px;
-  margin-left: 40px;
+  margin-left: 32px;
   text-decoration: none;
   transition: color 0.2s ease-in-out;
 

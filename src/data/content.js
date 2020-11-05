@@ -210,6 +210,15 @@ const content = {
           "https://matthewstrom.com/writing/design-and-ml/",
         image: "images/image1.24.jpg",
       },
+
+      link25: {
+        title: "UX Guidelines for Recommended Content",
+        description:
+          "Encourage engagement with recommendations by presenting them prominently, segmenting suggestions into clear categories, and providing methods to give feedback",
+        url:
+          "https://www.nngroup.com/articles/recommendation-guidelines/",
+        image: "images/image1.25.jpg",
+      },
     },
   },
 
@@ -228,7 +237,7 @@ const content = {
       link2: {
         title: "AI and UX: Why Artificial Intelligence Needs User Experience",
         description:
-          "This book shines a light on how user experience (UX) will play a significant role in adoption of AI technologies across industries",
+          "This book shines a light on how user experience will play a significant role in adoption of AI technologies across industries",
         url:
           "https://www.amazon.com/AI-UX-Artificial-Intelligence-Experience-ebook-dp-B08LB3JLPB/dp/B08LB3JLPB/ref=mt_other?_encoding=UTF8&me=&qid=",
         image: "images/image2.2.jpg",
@@ -449,6 +458,14 @@ const content = {
           "A project by the Stanford d.School to make Machine Learning (ML) more accessible to innovators from all disciplines",
         url: "https://designwith.ml/",
         image: "images/image4.9.jpg",
+      },
+
+      link10: {
+        title: "The Intelligence Augmentation Design Toolkit",
+        description:
+          "A toolkit, based on real-world experience for designing services and machine learning components",
+        url: "https://futurice.com/ia-design-kit",
+        image: "images/image4.10.jpg",
       },
     },
   },

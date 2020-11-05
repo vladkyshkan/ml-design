@@ -47,7 +47,7 @@ function App() {
                       fill="#6275FF"
                     />
                   </svg>
-                  90 articles, books, videos & other useful links
+                  90+ articles, books, videos & other useful links
                 </BenefitItem>
                 <BenefitItem>
                   <svg

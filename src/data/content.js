@@ -214,7 +214,7 @@ const content = {
       link25: {
         title: "UX Guidelines for Recommended Content",
         description:
-          "Encourage engagement with recommendations by presenting them prominently, segmenting suggestions into clear categories, and providing methods to give feedback",
+          "Encourage engagement with recommendations by presenting them prominently and providing methods to give feedback",
         url:
           "https://www.nngroup.com/articles/recommendation-guidelines/",
         image: "images/image1.25.jpg",

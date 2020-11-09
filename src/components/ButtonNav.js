@@ -46,8 +46,8 @@ const StyledLink = styled(Link)`
   }
 
   @media only screen and (max-width: 1024px) {
-    margin: 24px 0 0 32px;
-    padding-bottom: 24px;
+    margin: 16px 0 0 32px;
+    padding-bottom: 16px;
     border-bottom: 1px solid #b9cbd9;
     width: calc(100% - 64px);
 
@@ -56,7 +56,7 @@ const StyledLink = styled(Link)`
     }
 
     &.active {
-      padding-bottom: 24px;
+      padding-bottom: 16px;
       border-bottom: 1px solid #b9cbd9;
     }
   }

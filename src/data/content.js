@@ -380,6 +380,14 @@ const content = {
         url: "https://ibuildmyideas.substack.com/p/i-build-my-ideas-8-071920",
         image: "images/image3.6.jpg",
       },
+
+      link7: {
+        title: "Colorful",
+        description:
+          "Colorful helps designers master color in their designs by generating beautiful color palettes and color themes using artificial intelligence",
+        url: "https://colorful.co?ref=machinelearning.design",
+        image: "images/image3.7.jpg",
+      },
     },
   },
 

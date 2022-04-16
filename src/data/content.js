@@ -212,7 +212,7 @@ const content = {
 
       link27: {
         title:
-          "Machine Learning Has Already Transformed the Design Profession. How Do We Use It Ethically?",
+          "ML Has Already Transformed the Design Profession. How Do We Use It Ethically?",
         description:
           "In understanding machine learning, designers can engage with it as a design material and a creative force",
         url: "https://eyeondesign.aiga.org/machine-learning-has-already-transformed-the-design-profession-how-do-we-use-it-ethically/",

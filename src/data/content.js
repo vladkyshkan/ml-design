@@ -6,8 +6,7 @@ const content = {
         title: "Human-Centered Machine Learning",
         description:
           "7 steps to stay focused on the user when designing with ML by Google UX team",
-        url:
-          "https://medium.com/google-design/human-centered-machine-learning-a770d10562cd",
+        url: "https://medium.com/google-design/human-centered-machine-learning-a770d10562cd",
         image: "images/image1.1.jpg",
       },
 
@@ -15,8 +14,7 @@ const content = {
         title: "An intro to Machine Learning for designers",
         description:
           "The basics of machine learning and how to apply it to the products you are building right now",
-        url:
-          "https://uxdesign.cc/an-intro-to-machine-learning-for-designers-5c74ba100257",
+        url: "https://uxdesign.cc/an-intro-to-machine-learning-for-designers-5c74ba100257",
         image: "images/image1.2.jpg",
       },
 
@@ -32,8 +30,7 @@ const content = {
         title: "Machine Learning is Fun!",
         description:
           "The guide for anyone who is curious about machine learning but has no idea where to start",
-        url:
-          "https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471",
+        url: "https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471",
         image: "images/image1.4.jpg",
       },
 
@@ -41,8 +38,7 @@ const content = {
         title: "Why Machine Learning and AI matter for design teams",
         description:
           "Why designing for machine learning should be on the radar for all design teams today",
-        url:
-          "https://bigmedium.com/ideas/why-machine-learning-and-ai-matter-for-design-team.html",
+        url: "https://bigmedium.com/ideas/why-machine-learning-and-ai-matter-for-design-team.html",
         image: "images/image1.5.jpg",
       },
 
@@ -51,8 +47,7 @@ const content = {
           "The Step-By-Step PM Guide to Building Machine Learning Based Products",
         description:
           "A step-by-step guide to becoming an effective PM in an organization that leverages ML to achieve business goals",
-        url:
-          "https://medium.com/@yaelg/product-manager-pm-step-by-step-tutorial-building-machine-learning-products-ffa7817aa8ab",
+        url: "https://medium.com/@yaelg/product-manager-pm-step-by-step-tutorial-building-machine-learning-products-ffa7817aa8ab",
         image: "images/image1.6.jpg",
       },
 
@@ -68,8 +63,7 @@ const content = {
         title: "Experience Design in the Machine Learning Era",
         description:
           "Notes for designers and data scientists who create together systems that learn from human behaviors",
-        url:
-          "https://www.bbvadata.com/experience-design-in-the-machine-learning-era/",
+        url: "https://www.bbvadata.com/experience-design-in-the-machine-learning-era/",
         image: "images/image1.8.jpg",
       },
 
@@ -84,8 +78,7 @@ const content = {
         title: "Applications Of Machine Learning For Designers",
         description:
           "This article illustrates the power of machine learning through the applications of detection, prediction and generation",
-        url:
-          "https://www.smashingmagazine.com/2017/04/applications-machine-learning-designers/",
+        url: "https://www.smashingmagazine.com/2017/04/applications-machine-learning-designers/",
         image: "images/image1.10.jpg",
       },
 
@@ -93,8 +86,7 @@ const content = {
         title: "How AI has started to impact our work as designers",
         description:
           "How is AI & ML changing the way we work in the near future?",
-        url:
-          "https://uxdesign.cc/how-ai-will-impact-your-routine-as-a-designer-2773a4b1728c",
+        url: "https://uxdesign.cc/how-ai-will-impact-your-routine-as-a-designer-2773a4b1728c",
         image: "images/image1.11.jpg",
       },
 
@@ -118,8 +110,7 @@ const content = {
         title: "What is the role of an AI designer?",
         description:
           "What designers on the Facebook’s Artificial Intelligence team are working on day-to-day",
-        url:
-          "https://medium.com/@amandalinden/what-is-the-role-of-an-a-i-designer-6943711046ec",
+        url: "https://medium.com/@amandalinden/what-is-the-role-of-an-a-i-designer-6943711046ec",
         image: "images/image1.14.jpg",
       },
 
@@ -135,8 +126,7 @@ const content = {
         title: "Designing with AI",
         description:
           "Product designer at Facebook shares lessons from designing an artificial intelligence–enabled experience",
-        url:
-          "https://medium.com/facebook-design-business-tools/designing-with-ai-3f7652619f4",
+        url: "https://medium.com/facebook-design-business-tools/designing-with-ai-3f7652619f4",
         image: "images/image1.16.jpg",
       },
 
@@ -152,8 +142,7 @@ const content = {
         title: "Rethinking Design Tools in the Age of Machine Learning",
         description:
           "How ML and AI will bring about a new generation of design tools that learn from and adapt to the user’s way of thinking",
-        url:
-          "https://medium.com/artists-and-machine-intelligence/rethinking-design-tools-in-the-age-of-machine-learning-369f3f07ab6c",
+        url: "https://medium.com/artists-and-machine-intelligence/rethinking-design-tools-in-the-age-of-machine-learning-369f3f07ab6c",
         image: "images/image1.18.jpg",
       },
 
@@ -161,8 +150,7 @@ const content = {
         title: "Design of Artificial Intelligence Products",
         description:
           "The class note of Design of AI Products taught by John Zimmerman in the HCII at Carnegie Mellon University",
-        url:
-          "https://medium.com/@chow0531/design-of-artificial-intelligence-products-2919a448decd",
+        url: "https://medium.com/@chow0531/design-of-artificial-intelligence-products-2919a448decd",
         image: "images/image1.19.jpg",
       },
 
@@ -170,8 +158,7 @@ const content = {
         title: "AI and Design: why AI is your creative partner",
         description:
           "AI is going to be a creative partner that can help us accelerate our creativity and explore design possibilities more deeply than ever before",
-        url:
-          "https://uxdesign.cc/ai-and-design-ai-is-your-creative-partner-cb035b8ef107",
+        url: "https://uxdesign.cc/ai-and-design-ai-is-your-creative-partner-cb035b8ef107",
         image: "images/image1.20.jpg",
       },
 
@@ -179,8 +166,7 @@ const content = {
         title: "AI Product Management: Research, Requirements and Scope",
         description:
           "How should you prepare business requirements for the team? What questions should you ask during the research phase?",
-        url:
-          "https://uxplanet.org/ai-product-management-research-requirements-and-scope-7ccad87f51ad",
+        url: "https://uxplanet.org/ai-product-management-research-requirements-and-scope-7ccad87f51ad",
         image: "images/image1.21.jpg",
       },
 
@@ -188,8 +174,7 @@ const content = {
         title: "The Design of AI-Based Products: 13 Things to Consider",
         description:
           "There are 13 things for a design team to consider when working on testable prototypes of AI products",
-        url:
-          "https://uxplanet.org/the-design-of-ai-based-products-13-things-to-consider-297ce9c0f0ba",
+        url: "https://uxplanet.org/the-design-of-ai-based-products-13-things-to-consider-297ce9c0f0ba",
         image: "images/image1.22.jpg",
       },
 
@@ -197,8 +182,7 @@ const content = {
         title: "Designing AI products",
         description:
           "A compilation of best practices for designers, managers and HCI practitioners to build human-centred AI products",
-        url:
-          "https://woktossrobot.com/aiguide/index.html",
+        url: "https://woktossrobot.com/aiguide/index.html",
         image: "images/image1.23.jpg",
       },
 
@@ -206,8 +190,7 @@ const content = {
         title: "Design and machine learning",
         description:
           "What design and machine learning have to offer each other",
-        url:
-          "https://matthewstrom.com/writing/design-and-ml/",
+        url: "https://matthewstrom.com/writing/design-and-ml/",
         image: "images/image1.24.jpg",
       },
 
@@ -215,9 +198,25 @@ const content = {
         title: "UX Guidelines for Recommended Content",
         description:
           "Encourage engagement with recommendations by presenting them prominently and providing methods to give feedback",
-        url:
-          "https://www.nngroup.com/articles/recommendation-guidelines/",
+        url: "https://www.nngroup.com/articles/recommendation-guidelines/",
         image: "images/image1.25.jpg",
+      },
+
+      link26: {
+        title: "5 Steps to Design a Better Machine Learning User Experience",
+        description:
+          "Practical guide to steer the decision-making process towards more human centered ML",
+        url: "https://www.slavoglinsky.com/5-steps-to-design-a-better-machine-learning-user-experience",
+        image: "images/image1.26.jpg",
+      },
+
+      link27: {
+        title:
+          "Machine Learning Has Already Transformed the Design Profession. How Do We Use It Ethically?",
+        description:
+          "In understanding machine learning, designers can engage with it as a design material and a creative force",
+        url: "https://eyeondesign.aiga.org/machine-learning-has-already-transformed-the-design-profession-how-do-we-use-it-ethically/",
+        image: "images/image1.27.jpg",
       },
     },
   },
@@ -229,8 +228,7 @@ const content = {
         title: "Machine Learning for Designers",
         description:
           "ML is no longer just a tool for data scientists. By taking advantage of recent advances, UI/UX designers can find ways to better understand their users",
-        url:
-          "https://www.oreilly.com/library/view/machine-learning-for/9781491971444/?intcmp=il-design-free-lp-lgen_20160621_new_site_machine_learning_for_designers_full_report_editor_note_link",
+        url: "https://www.oreilly.com/library/view/machine-learning-for/9781491971444/?intcmp=il-design-free-lp-lgen_20160621_new_site_machine_learning_for_designers_full_report_editor_note_link",
         image: "images/image2.1.jpg",
       },
 
@@ -238,8 +236,7 @@ const content = {
         title: "AI and UX: Why Artificial Intelligence Needs User Experience",
         description:
           "This book shines a light on how user experience will play a significant role in adoption of AI technologies across industries",
-        url:
-          "https://www.amazon.com/AI-UX-Artificial-Intelligence-Experience-ebook-dp-B08LB3JLPB/dp/B08LB3JLPB/ref=mt_other?_encoding=UTF8&me=&qid=",
+        url: "https://www.amazon.com/AI-UX-Artificial-Intelligence-Experience-ebook-dp-B08LB3JLPB/dp/B08LB3JLPB/ref=mt_other?_encoding=UTF8&me=&qid=",
         image: "images/image2.2.jpg",
       },
 
@@ -247,8 +244,7 @@ const content = {
         title: "Machine Learning for Humans (free)",
         description:
           "Simple, plain-English explanations of machine learning accompanied by math, code, and real-world examples",
-        url:
-          "https://www.dropbox.com/s/e38nil1dnl7481q/machine_learning.pdf?dl=0",
+        url: "https://www.dropbox.com/s/e38nil1dnl7481q/machine_learning.pdf?dl=0",
         image: "images/image2.3.jpg",
       },
 
@@ -256,8 +252,7 @@ const content = {
         title: "The Master Algorithm",
         description:
           "A thought-provoking and wide-ranging exploration of machine learning and the race to build computer intelligences as flexible as our own",
-        url:
-          "https://www.amazon.com/Master-Algorithm-Ultimate-Learning-Machine-ebook/dp/B012271YB2",
+        url: "https://www.amazon.com/Master-Algorithm-Ultimate-Learning-Machine-ebook/dp/B012271YB2",
         image: "images/image2.4.jpg",
       },
 
@@ -265,8 +260,7 @@ const content = {
         title: "Superintelligence: Paths, Dangers, Strategies",
         description:
           "This book argues that if machine brains surpass human brains in general intelligence, then it could replace humans as the dominant lifeform on Earth",
-        url:
-          "https://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom-ebook/dp/B00LOOCGB2/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=",
+        url: "https://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom-ebook/dp/B00LOOCGB2/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=",
         image: "images/image2.5.jpg",
       },
 
@@ -274,8 +268,7 @@ const content = {
         title: "Artificial Intelligence Driven Design (free)",
         description:
           "How Artificial Intelligence will impact UX design, and how to design meaningful experiences in an era with AI-driven products & services",
-        url:
-          "https://www.awwwards.com/AI-driven-design?amp%3Butm_content=ai_design&amp%3Butm_medium=social&amp%3Butm_source=twitter&utm_campaign=brain_food",
+        url: "https://www.awwwards.com/AI-driven-design?amp%3Butm_content=ai_design&amp%3Butm_medium=social&amp%3Butm_source=twitter&utm_campaign=brain_food",
         image: "images/image2.6.jpg",
       },
 
@@ -284,8 +277,7 @@ const content = {
           "Machine Learning Basics: An Illustrated Guide for Non-Technical Readers (free)",
         description:
           "The guidebook breaks down some of the fundamental concepts of machine learning",
-        url:
-          "https://pages.dataiku.com/hubfs/Guidebooks/Machine%20Learning%20Basics/GUIDEBOOK%20MACHINE%20LEARNING%20BASICS.pdf",
+        url: "https://pages.dataiku.com/hubfs/Guidebooks/Machine%20Learning%20Basics/GUIDEBOOK%20MACHINE%20LEARNING%20BASICS.pdf",
         image: "images/image2.7.jpg",
       },
 
@@ -294,8 +286,7 @@ const content = {
           "Prediction Machines: The Simple Economics of Artificial Intelligence",
         description:
           "What does AI mean for the business? Read this book to find out",
-        url:
-          "https://www.amazon.com/Prediction-Machines-Economics-Artificial-Intelligence/dp/1633695670",
+        url: "https://www.amazon.com/Prediction-Machines-Economics-Artificial-Intelligence/dp/1633695670",
         image: "images/image2.8.jpg",
       },
 
@@ -303,8 +294,7 @@ const content = {
         title: "Human + Machine: Reimagining Work in the Age of AI",
         description:
           "The book reveals how companies are using the new rules of AI to leap ahead on innovation and profitability",
-        url:
-          "https://www.amazon.com/Human-Machine-Reimagining-Work-Age/dp/1633693864",
+        url: "https://www.amazon.com/Human-Machine-Reimagining-Work-Age/dp/1633693864",
         image: "images/image2.9.jpg",
       },
 
@@ -313,8 +303,7 @@ const content = {
           "Applied Artificial Intelligence: A Handbook For Business Leaders",
         description:
           "A guide for business leaders who are passionate about leveraging AI to enhance the productivity of their organizations",
-        url:
-          "https://www.amazon.com/Applied-Artificial-Intelligence-Handbook-Business-ebook/dp/B07DHZT2DW",
+        url: "https://www.amazon.com/Applied-Artificial-Intelligence-Handbook-Business-ebook/dp/B07DHZT2DW",
         image: "images/image2.10.jpg",
       },
 
@@ -323,9 +312,17 @@ const content = {
           "Artificial Intelligence: 101 Things You Must Know Today About Our Future",
         description:
           "Discover how technological breakthroughs will change your world",
-        url:
-          "https://www.amazon.com/gp/product/B079JXCVGS/ref=ppx_yo_dt_b_d_asin_title_o00?ie=UTF8&psc=1",
+        url: "https://www.amazon.com/gp/product/B079JXCVGS/ref=ppx_yo_dt_b_d_asin_title_o00?ie=UTF8&psc=1",
         image: "images/image2.11.jpg",
+      },
+
+      link12: {
+        title:
+          "Big Data, Big Design: Why Designers Should Care about Artificial Intelligence",
+        description:
+          "The book provides designers with the tools they need to put ML to use for good through thoughtful, human-centered, intentional design",
+        url: "https://papress.com/products/big-data-dig-design",
+        image: "images/image2.12.jpg",
       },
     },
   },
@@ -422,8 +419,7 @@ const content = {
         title: "Intro to Artificial Intelligence",
         description:
           "This course will introduce you to the basics of AI. Topics include machine learning, probabilistic reasoning, robotics, computer vision, and natural language processing",
-        url:
-          "https://www.udacity.com/course/intro-to-artificial-intelligence--cs271",
+        url: "https://www.udacity.com/course/intro-to-artificial-intelligence--cs271",
         image: "images/image4.4.jpg",
       },
 
@@ -431,8 +427,7 @@ const content = {
         title: "AI Adventures by Google",
         description:
           "In this video series Yufeng Guo take you on an adventure through the world of AI, to explore the art, science, and tools of machine learning",
-        url:
-          "https://www.youtube.com/playlist?list=PLIivdWyY5sqJxnwJhe3etaK7utrBiPBQ2",
+        url: "https://www.youtube.com/playlist?list=PLIivdWyY5sqJxnwJhe3etaK7utrBiPBQ2",
         image: "images/image4.5.jpg",
       },
 
@@ -485,8 +480,7 @@ const content = {
         title: "Apple HIG. Machine Learning",
         description:
           "Apple guidelines for designing UI and user experience of a machine learning app",
-        url:
-          "https://developer.apple.com/design/human-interface-guidelines/machine-learning/overview/introduction/",
+        url: "https://developer.apple.com/design/human-interface-guidelines/machine-learning/overview/introduction/",
         image: "images/image5.1.jpg",
       },
 
@@ -502,8 +496,7 @@ const content = {
         title: "Microsoft guidelines for Human-AI interaction",
         description:
           "Best practices for how AI systems should behave upon initial interaction, during regular interaction, when they’re inevitably wrong, and over time",
-        url:
-          "https://www.microsoft.com/en-us/research/project/guidelines-for-human-ai-interaction/",
+        url: "https://www.microsoft.com/en-us/research/project/guidelines-for-human-ai-interaction/",
         image: "images/image5.3.jpg",
       },
 
@@ -519,8 +512,7 @@ const content = {
         title: "Spotify principles for designing ML-powered products",
         description:
           "Spotify team come up with three principles they believe will help others design ML-powered experiences",
-        url:
-          "https://spotify.design/article/three-principles-for-designing-ml-powered-products",
+        url: "https://spotify.design/article/three-principles-for-designing-ml-powered-products",
         image: "images/image5.5.jpg",
       },
 
@@ -528,8 +520,7 @@ const content = {
         title: "IDEO principles",
         description:
           "A set of principles and activities that IDEO team use today to ensure they’re intentionally designing intelligent systems in service of people",
-        url:
-          "https://www.ideo.com/blog/ai-needs-an-ethical-compass-this-tool-can-help",
+        url: "https://www.ideo.com/blog/ai-needs-an-ethical-compass-this-tool-can-help",
         image: "images/image5.6.jpg",
       },
 
@@ -581,8 +572,7 @@ const content = {
         title: "Why Machine Learning is a UX Problem",
         description:
           "Dive into artificial intelligence, the impact that machine learning has on UX, and the changing role of design and development with the advancement of technology",
-        url:
-          "https://www.youtube.com/watch?v=Q1qhY1KOGZ8&list=PLUW5utnrTMQc2VMdpf8cPz9qQpHGWL-iu&index=9&t=0s",
+        url: "https://www.youtube.com/watch?v=Q1qhY1KOGZ8&list=PLUW5utnrTMQc2VMdpf8cPz9qQpHGWL-iu&index=9&t=0s",
         image: "images/image6.5.jpg",
       },
 
@@ -590,8 +580,7 @@ const content = {
         title: "Adventures in using ML in Product Design",
         description:
           "How machine learning creates new opportunities and new problems in product design, and look at some examples of ML applied in products we use today",
-        url:
-          "https://www.youtube.com/watch?v=KorYFmFNMzY&list=PLUW5utnrTMQc2VMdpf8cPz9qQpHGWL-iu&index=17&t=0s",
+        url: "https://www.youtube.com/watch?v=KorYFmFNMzY&list=PLUW5utnrTMQc2VMdpf8cPz9qQpHGWL-iu&index=17&t=0s",
         image: "images/image6.6.jpg",
       },
 
@@ -599,8 +588,7 @@ const content = {
         title: "Better AI needs better design",
         description:
           "In this talk, Srikanth Velamakanni unfolds how AI and Design together can develop workable solutions and solve problems at scale",
-        url:
-          "https://www.youtube.com/watch?v=gE9mipJHOhI&list=PLUW5utnrTMQc2VMdpf8cPz9qQpHGWL-iu&index=24&t=0s",
+        url: "https://www.youtube.com/watch?v=gE9mipJHOhI&list=PLUW5utnrTMQc2VMdpf8cPz9qQpHGWL-iu&index=24&t=0s",
         image: "images/image6.7.jpg",
       },
 

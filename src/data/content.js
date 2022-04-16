@@ -320,7 +320,7 @@ const content = {
         title:
           "Big Data, Big Design: Why Designers Should Care about Artificial Intelligence",
         description:
-          "The book provides designers with the tools they need to put ML to use for good through thoughtful, human-centered, intentional design",
+          "The book provides designers with the tools they need to put ML to use for good through human-centered, intentional design",
         url: "https://papress.com/products/big-data-dig-design",
         image: "images/image2.12.jpg",
       },

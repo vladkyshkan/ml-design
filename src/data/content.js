@@ -531,6 +531,14 @@ const content = {
         url: "https://linguafranca.polytopal.ai/",
         image: "images/image5.7.jpg",
       },
+
+      link8: {
+        title: "The Smarter Pattern Library",
+        description:
+          "An interaction pattern library that provides solutions for common AI challenges",
+        url: "https://smarterpatterns.com/",
+        image: "images/image5.8.jpg",
+      },
     },
   },
 

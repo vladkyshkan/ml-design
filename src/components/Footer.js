@@ -14,7 +14,7 @@ function Footer() {
           Vlad Kyshkan
         </a>
       </div>
-      <p>© 2020</p>
+      <p>© 2022</p>
     </FooterStyled>
   );
 }

@@ -385,6 +385,14 @@ const content = {
         url: "https://colorful.co?ref=machinelearning.design",
         image: "images/image3.7.jpg",
       },
+
+      link8: {
+        title: "DALL·E 2",
+        description:
+          "A new AI system that can create realistic images and art from a description in natural language",
+        url: "https://openai.com/dall-e-2/",
+        image: "images/image3.8.jpg",
+      },
     },
   },
 
@@ -480,7 +488,7 @@ const content = {
         title: "Apple HIG. Machine Learning",
         description:
           "Apple guidelines for designing UI and user experience of a machine learning app",
-        url: "https://developer.apple.com/design/human-interface-guidelines/machine-learning/overview/introduction/",
+        url: "https://developer.apple.com/design/human-interface-guidelines/technologies/machine-learning/introduction",
         image: "images/image5.1.jpg",
       },
 
@@ -765,11 +773,19 @@ const content = {
       },
 
       link19: {
+        title: "Diagram",
+        description:
+          "Diagram explores the intersection of product design and AI. They’re building magical new ways to design products that make design accessible to everyone",
+        url: "https://diagram.com/",
+        image: "images/image7.19.jpg",
+      },
+
+      link20: {
         title: "26 No/Low-code ML tools to check out",
         description:
           "An assessment of no/low-code tools for the machine learning process by their complexity & coverage",
         url: "https://medium.com/aixdesign/26-no-code-low-code-ml-tools-to-check-out-8b3414eaa489",
-        image: "images/image7.19.jpg",
+        image: "images/image7.20.jpg",
       },
     },
   },

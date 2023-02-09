@@ -781,11 +781,27 @@ const content = {
       },
 
       link20: {
+        title: "Galileo AI",
+        description:
+          "Trained on thousands of outstanding designs, Galileo AI turns natural language prompts into high-fidelity designs",
+        url: "https://www.usegalileo.ai/",
+        image: "images/image7.20.jpg",
+      },
+
+      link21: {
+        title: "Midjourney",
+        description:
+          "AI based art generator that has been created to explore new mediums of thought",
+        url: "https://www.midjourney.com/showcase/recent/",
+        image: "images/image7.21.jpg",
+      },
+
+      link22: {
         title: "26 No/Low-code ML tools to check out",
         description:
           "An assessment of no/low-code tools for the machine learning process by their complexity & coverage",
         url: "https://medium.com/aixdesign/26-no-code-low-code-ml-tools-to-check-out-8b3414eaa489",
-        image: "images/image7.20.jpg",
+        image: "images/image7.22.jpg",
       },
     },
   },
